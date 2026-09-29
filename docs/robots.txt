@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /EXIMUTC-News/
+Sitemap: https://eximutc.github.io/EXIMUTC-News/sitemap.xml
