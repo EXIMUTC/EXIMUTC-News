@@ -10,7 +10,7 @@ from pathlib import Path
 from urllib.parse import quote, urljoin
 
 ROOT = Path(__file__).resolve().parents[2]
-BASE = os.environ.get("WEBSITE_NEWS_BASE_URL", "https://eximutc.github.io/EXIMUTC-News/").rstrip("/") + "/"
+BASE = os.environ.get("WEBSITE_NEWS_BASE_URL", "https://news.eximutc.com/").rstrip("/") + "/"
 
 def read(url):
     request = urllib.request.Request(url, headers={"User-Agent": "EXIMUTC-News-production-check"})
