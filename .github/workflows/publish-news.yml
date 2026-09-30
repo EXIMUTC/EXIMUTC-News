@@ -33,3 +33,5 @@ jobs:
             git pull --rebase origin main
             git push origin HEAD:main
           fi
+      - name: Verify live article and publication freshness
+        run: python automation/website_news/verify_production.py
