@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">EXIMUTC gemstone news illustration</title><desc id="desc">Faceted blue and green tourmaline on a dark navy background.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071e35"/><stop offset="1" stop-color="#102e3e"/></linearGradient><linearGradient id="gem" x2="0" y2="1"><stop stop-color="#74e7dc"/><stop offset=".55" stop-color="#249aa5"/><stop offset="1" stop-color="#136380"/></linearGradient></defs>
+<rect width="1200" height="630" fill="url(#bg)"/><circle cx="830" cy="290" r="220" fill="#1d6778" opacity=".2"/>
+<path d="M630 120 875 180 975 310 820 500 580 465 445 300Z" fill="url(#gem)" stroke="#c0f5e5" stroke-width="7"/>
+<path d="M630 120 680 270 445 300M875 180 680 270 975 310M680 270 820 500M680 270 580 465M445 300 580 465M975 310 820 500" fill="none" stroke="#d5ffef" stroke-opacity=".57" stroke-width="5"/>
+<path d="M630 120 875 180 680 270Z" fill="#a8f3e6" opacity=".6"/><path d="M680 270 975 310 820 500Z" fill="#0b6682" opacity=".6"/>
+<text x="75" y="102" fill="#d5f5ed" font-family="Arial,sans-serif" font-size="42" letter-spacing="5">EXIMUTC NEWS</text>
+<text x="75" y="565" fill="#a8d9df" font-family="Arial,sans-serif" font-size="24">EDITORIAL ILLUSTRATION</text>
+</svg>
