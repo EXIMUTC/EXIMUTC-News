@@ -9,7 +9,7 @@ from urllib.parse import urlparse
 
 ROOT=Path(__file__).resolve().parents[2]
 OUT=ROOT/'docs'
-BASE_URL='https://eximutc.github.io/EXIMUTC-News'
+BASE_URL='https://news.eximutc.com'
 STATE=ROOT/'pipeline_state'/'website_news_history.json'
 QUEUE=ROOT/'EXIMUTC_NEWS_FEED_QUEUE.json'
 
@@ -70,7 +70,7 @@ def main():
     for record in history:
         (OUT/'articles'/f"{record['slug']}.html").write_text(article_html(record))
     (OUT/'index.html').write_text(build_index(history))
-    (OUT/'robots.txt').write_text(f'User-agent: *\nAllow: /EXIMUTC-News/\nSitemap: {BASE_URL}/sitemap.xml\n')
+    (OUT/'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n')
     urls=[f'{BASE_URL}/']+[f'{BASE_URL}/articles/{x["slug"]}.html' for x in history]
     (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{esc(u)}</loc></url>' for u in urls)+'</urlset>')
     print(json.dumps({'status':'ok','new_article':bool(item),'articles':len(history)}))
