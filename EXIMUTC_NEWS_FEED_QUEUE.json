@@ -1,9 +1,23 @@
 {
-  "generated_at": "2026-08-30T23:31:00-04:00",
+  "generated_at": "2026-10-05T22:18:01.870Z",
   "feed": "EXIMUTC_NEWS",
   "status": "APPROVED_FOR_PUBLISHING",
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
+    {
+      "title": "Diamonds Do Good launches My Diamond Does Good creator campaign",
+      "url": "https://rapaport.com/news/influencers-head-up-new-campaign-from-diamonds-do-good/",
+      "source": "Rapaport",
+      "summary": "Diamonds Do Good has launched the My Diamond Does Good consumer campaign, featuring four fashion and lifestyle creators who will share the stories behind natural diamond jewelry they already own.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC's market view: the campaign focuses on consumer storytelling around natural diamonds. It does not establish the origin, treatment, grading, or value of any individual diamond.",
+      "kind": "news",
+      "source_url": "https://rapaport.com/news/influencers-head-up-new-campaign-from-diamonds-do-good/",
+      "slug": "diamonds-do-good-launches-my-diamond-does-good-creator-campaign-91628bc2",
+      "fingerprint": "91628bc2fe3526d18cb638785885539adb49e9b6602a7d2e3853b8bfc04f685c",
+      "published_at": "2026-10-05T22:16:42.860803+00:00"
+    },
     {
       "id": "2026-08-27-gia-gubelin-ethiopia-paraiba",
       "source_date": "2026-08-27",
@@ -51,5 +65,6 @@
       "fingerprint": "ab0441f7ca1ad62ef4e15808d39f53af886e51a683760c36d9752bfd522c8cb3",
       "published_at": "2026-09-29T22:48:32.591357+00:00"
     }
-  ]
+  ],
+  "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay"
 }
