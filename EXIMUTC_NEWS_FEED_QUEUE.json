@@ -66,5 +66,6 @@
       "published_at": "2026-09-29T22:48:32.591357+00:00"
     }
   ],
-  "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay"
+  "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
+  "exported_latest_fingerprint": "91628bc2fe3526d18cb638785885539adb49e9b6602a7d2e3853b8bfc04f685c"
 }
