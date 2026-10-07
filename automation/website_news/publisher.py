@@ -56,6 +56,16 @@ def build_index(history):
     cards=''.join(f'<article><h2><a href="articles/{esc(x["slug"])}.html">{esc(x["title"])}</a></h2><p>{esc(x.get("summary",""))}</p><time datetime="{esc(x["published_at"])}">{esc(display_date(x["published_at"]))}</time></article>' for x in reversed(history))
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>EXIMUTC News | Natural Gemstones & Fine Jewelry</title><meta name="description" content="EXIMUTC market news and analysis covering natural gemstones, gemology, auctions and fine jewelry."><link rel="canonical" href="{BASE_URL}/"><meta property="og:type" content="website"><meta property="og:url" content="{BASE_URL}/"><meta property="og:title" content="EXIMUTC News | Natural Gemstones &amp; Fine Jewelry"><meta property="og:description" content="EXIMUTC market news and analysis covering natural gemstones, gemology, auctions and fine jewelry."><meta property="og:image" content="{BASE_URL}/assets/gemstone-news.svg"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{BASE_URL}/assets/gemstone-news.svg"><style>*{{box-sizing:border-box}}body{{font-family:Arial,sans-serif;margin:auto;max-width:1000px;padding:28px;color:#151515}}header{{padding:35px 0;border-bottom:1px solid #ddd}}article{{padding:22px 0;border-bottom:1px solid #eee}}a{{color:#075985;overflow-wrap:anywhere}}h1,h2,p{{overflow-wrap:anywhere}}@media(max-width:480px){{body{{padding:20px 16px}}}}</style></head><body><header><h1>EXIMUTC NEWS</h1><p>Natural Gemstones & Fine Jewelry Market Intelligence</p><p><a href="https://eximutc.com">EXIMUTC.COM</a></p></header>{cards or '<p>Editorial feed is being prepared.</p>'}</body></html>'''
 
+def build_embed(history, limit=3):
+    latest=list(reversed(history[-limit:]))
+    cards=''.join(
+        f'<article><time datetime="{esc(x["published_at"])}">{esc(display_date(x["published_at"]))}</time>'
+        f'<h3><a href="{BASE_URL}/articles/{esc(x["slug"])}.html" target="_top">{esc(x["title"])}</a></h3>'
+        f'<p>{esc(str(x.get("summary",""))[:220])}</p></article>'
+        for x in latest
+    )
+    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Latest EXIMUTC News</title><style>*{{box-sizing:border-box}}html,body{{margin:0;padding:0;background:transparent}}body{{font-family:Arial,sans-serif;color:#111}}.wrap{{max-width:1100px;margin:0 auto;padding:8px 4px 12px}}h2{{font-size:clamp(26px,4vw,42px);font-weight:600;letter-spacing:.01em;margin:0 0 18px}}article{{padding:18px 0;border-top:1px solid rgba(0,0,0,.14)}}article:first-of-type{{border-top:0;padding-top:0}}time{{display:block;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#5f6570;margin-bottom:6px}}h3{{font-size:clamp(18px,2.4vw,26px);line-height:1.2;margin:0 0 7px}}p{{font-size:15px;line-height:1.5;margin:0;color:#333}}a{{color:#0b245c;text-decoration:none}}a:hover,a:focus{{text-decoration:underline}}.all{{display:inline-block;margin-top:18px;font-weight:600}}@media(max-width:480px){{.wrap{{padding:4px 2px 10px}}article{{padding:15px 0}}}}</style></head><body><section class="wrap" aria-labelledby="latest-news-title"><h2 id="latest-news-title">Latest News</h2>{cards or '<p>Editorial feed is being prepared.</p>'}<a class="all" href="{BASE_URL}/" target="_top">View all EXIMUTC News →</a></section></body></html>'''
+
 def main():
     OUT.mkdir(exist_ok=True); (OUT/'articles').mkdir(exist_ok=True); STATE.parent.mkdir(exist_ok=True)
     history=load_json(STATE,[]); queue=load_json(QUEUE,{})
@@ -70,6 +80,7 @@ def main():
     for record in history:
         (OUT/'articles'/f"{record['slug']}.html").write_text(article_html(record))
     (OUT/'index.html').write_text(build_index(history))
+    (OUT/'embed.html').write_text(build_embed(history))
     (OUT/'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n')
     urls=[f'{BASE_URL}/']+[f'{BASE_URL}/articles/{x["slug"]}.html' for x in history]
     (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{esc(u)}</loc></url>' for u in urls)+'</urlset>')
