@@ -49,6 +49,17 @@ class PublicNewsPresentationTests(unittest.TestCase):
         index = Metadata(publisher.build_index([item]))
         self.assertEqual(index.values.get('og:url'), 'https://news.eximutc.com/')
 
+    def test_homepage_embed_uses_three_latest_articles_and_absolute_links(self):
+        history = [article(i) for i in range(5)]
+        page = publisher.build_embed(history)
+        links = Metadata(page).links
+        article_links = [x for x in links if '/articles/' in x]
+        self.assertEqual(len(article_links), 3)
+        self.assertIn('https://news.eximutc.com/articles/gemology-news-4.html', article_links)
+        self.assertIn('https://news.eximutc.com/articles/gemology-news-2.html', article_links)
+        self.assertNotIn('https://news.eximutc.com/articles/gemology-news-1.html', article_links)
+        self.assertIn('https://news.eximutc.com/', links)
+
 
 if __name__ == '__main__':
     unittest.main()
