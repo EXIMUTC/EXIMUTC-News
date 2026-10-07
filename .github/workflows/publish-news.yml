@@ -23,6 +23,7 @@ jobs:
       - name: Validate public files
         run: |
           test -s docs/index.html
+          test -s docs/embed.html
           test -s docs/sitemap.xml
           test -s docs/robots.txt
       - name: Save history and pages
