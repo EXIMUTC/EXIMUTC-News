@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Precious metals update - Oct 09, 2026 01:30 PM EDT",
+      "url": "https://gold-api.com/docs",
+      "source": "Gold API (indicative spot)",
+      "summary": "Indicative spot prices in USD per troy ounce: gold $4,195.60, silver $60.95, platinum $1,695.00. Oldest underlying quote: Oct 09, 2026 05:48 PM EDT. Not executable exchange quotations.",
+      "why_eximutc": "",
+      "published": "2026-10-09T21:48:45.313454+00:00",
+      "market_view": "EXIMUTC: metal spot does not equal jewelry retail pricing. Rapaport reported 2026-09 RAPI changes: 0.30 ct +3.2%, 1.00 ct +0.3%. These are monthly asking-price index changes, not live dollar quotes.",
+      "kind": "market_update",
+      "source_url": "https://gold-api.com/docs",
+      "slug": "precious-metals-update-oct-09-2026-01-30-pm-edt-e0618bb1",
+      "fingerprint": "e0618bb116ec04c55225bbc4ae45d4093d188f6c2375d59ce35d93b4a07eb47d",
+      "published_at": "2026-10-09T21:50:05.596731+00:00"
+    },
+    {
       "title": "Precious metals update - Oct 09, 2026 07:30 AM EDT",
       "url": "https://gold-api.com/docs",
       "source": "Gold API (indicative spot)",
@@ -123,5 +137,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "50e46b20efe68d6a8ff1aad016ceca7bea90ac0bfac2b4ed04973b63cd694fa7"
+  "exported_latest_fingerprint": "e0618bb116ec04c55225bbc4ae45d4093d188f6c2375d59ce35d93b4a07eb47d"
 }
