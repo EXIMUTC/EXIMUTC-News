@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Precious metals update - Oct 09, 2026 07:30 AM EDT",
+      "url": "https://gold-api.com/docs",
+      "source": "Gold API (indicative spot)",
+      "summary": "Indicative spot prices in USD per troy ounce: gold $4,184.00, silver $60.58, platinum $1,690.00. Oldest underlying quote: Oct 09, 2026 08:00 AM EDT. Not executable exchange quotations.",
+      "why_eximutc": "",
+      "published": "2026-10-09T12:00:30.242324+00:00",
+      "market_view": "EXIMUTC: metal spot does not equal jewelry retail pricing. Rapaport reported 2026-09 RAPI changes: 0.30 ct +3.2%, 1.00 ct +0.3%. These are monthly asking-price index changes, not live dollar quotes.",
+      "kind": "market_update",
+      "source_url": "https://gold-api.com/docs",
+      "slug": "precious-metals-update-oct-09-2026-07-30-am-edt-50e46b20",
+      "fingerprint": "50e46b20efe68d6a8ff1aad016ceca7bea90ac0bfac2b4ed04973b63cd694fa7",
+      "published_at": "2026-10-09T12:02:09.425558+00:00"
+    },
+    {
       "title": "Mejuri pairs sapphires with Salmon Gold",
       "url": "https://www.jckonline.com/editorial-article/mejuri-montana-sapphires",
       "source": "JCK",
@@ -109,5 +123,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "81ef3cecb2f1cf1b0f1ad517c0abf482f2bb4addf4bc8ece0866e1053255c388"
+  "exported_latest_fingerprint": "50e46b20efe68d6a8ff1aad016ceca7bea90ac0bfac2b4ed04973b63cd694fa7"
 }
