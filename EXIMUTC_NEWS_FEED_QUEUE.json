@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "The Patricia Emerald preserves a 632-carat crystal",
+      "url": "https://www.gia.edu/gems-gemology/summer-2016-rainier-footsteps-journey-chivor-emerald-mine",
+      "source": "Gemological Institute of America",
+      "summary": "GEM HISTORY: The emerald crystal comes from Colombia's Chivor mine.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: consider a crystal's form and documented provenance before cutting. Carat weight alone should not guide that decision.",
+      "kind": "historical_fact",
+      "source_url": "https://www.gia.edu/gems-gemology/summer-2016-rainier-footsteps-journey-chivor-emerald-mine",
+      "slug": "the-patricia-emerald-preserves-a-632-carat-crystal-d4ee764f",
+      "fingerprint": "d4ee764fbec9be55cc1f83b9f15d3d6efa54987c21413fe24897cf376357f7c0",
+      "published_at": "2026-10-11T21:06:10.416466+00:00"
+    },
+    {
       "title": "The Star of India: a 563-carat star sapphire",
       "url": "https://www.amnh.org/exhibitions/permanent/gems-minerals/star-of-india2",
       "source": "American Museum of Natural History",
@@ -165,5 +179,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "86f580a322971b610d5f5351f84c31f099e039b6cee96a86647890c46bbfed1e"
+  "exported_latest_fingerprint": "d4ee764fbec9be55cc1f83b9f15d3d6efa54987c21413fe24897cf376357f7c0"
 }
