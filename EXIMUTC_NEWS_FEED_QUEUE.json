@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "The Star of India: a 563-carat star sapphire",
+      "url": "https://www.amnh.org/exhibitions/permanent/gems-minerals/star-of-india2",
+      "source": "American Museum of Natural History",
+      "summary": "GEM HISTORY: Rutile inclusions create the star in this museum gemstone.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: consider the star's definition and symmetry, not only clarity. Request a laboratory report with origin and treatment disclosures.",
+      "kind": "historical_fact",
+      "source_url": "https://www.amnh.org/exhibitions/permanent/gems-minerals/star-of-india2",
+      "slug": "the-star-of-india-a-563-carat-star-sapphire-86f580a3",
+      "fingerprint": "86f580a322971b610d5f5351f84c31f099e039b6cee96a86647890c46bbfed1e",
+      "published_at": "2026-10-11T11:35:14.424050+00:00"
+    },
+    {
       "title": "Precious metals update - Oct 10, 2026 01:30 AM EDT",
       "url": "https://gold-api.com/docs",
       "source": "Gold API (indicative spot)",
@@ -151,5 +165,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "9ca568316bc280dd2151a98cf65caf9a1bb5d3ea845f222cf1ca785efee055a5"
+  "exported_latest_fingerprint": "86f580a322971b610d5f5351f84c31f099e039b6cee96a86647890c46bbfed1e"
 }
