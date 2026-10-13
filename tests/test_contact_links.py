@@ -10,6 +10,10 @@ REQUIRED = {
     "https://t.me/eximutc",
     "https://whatsapp.com/channel/0029Vb8SvzRCsU9VRLDFf01P",
     "https://ig.me/m/eximutcgems",
+    "https://www.instagram.com/p/DelCHsIJlhO/",
+    "https://www.facebook.com/share/19UtaXkuzG/?mibextid=wwXIfr",
+    "https://www.threads.com/@eximutcgems",
+    "https://x.com/eximutc",
 }
 
 
@@ -24,7 +28,7 @@ class AnchorParser(HTMLParser):
 
 
 class ContactLinksTest(unittest.TestCase):
-    def test_five_real_external_html_anchors_exist(self):
+    def test_full_official_cross_platform_directory_exists(self):
         text = PAGE.read_text(encoding="utf-8")
         parser = AnchorParser()
         parser.feed(text)
