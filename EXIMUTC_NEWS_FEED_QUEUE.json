@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Bitcoin and Ethereum verified market snapshot - Oct 13, 2026",
+      "url": "https://www.kraken.com/prices/bitcoin",
+      "source": "Kraken with Coinbase cross-check",
+      "summary": "Routine market data (not breaking news). Kraken USD spot as checked Oct 13, 2026 at 03:33 PM EDT: BTC $83,170.30 (+1.75% vs Kraken UTC-day open); ETH $2,507.71 (+2.61% vs Kraken UTC-day open). Figures are a time-stamped exchange snapshot, not rolling 24-hour returns.",
+      "why_eximutc": "",
+      "published": "2026-10-13T19:33:05.912952+00:00",
+      "market_view": "EXIMUTC Market Watch: these figures describe cryptocurrency trading, not natural-gemstone values or jewelry prices. Cross-checked against Coinbase USD spot. Market prices vary by venue and time; this is not investment advice.",
+      "kind": "crypto_market",
+      "source_url": "https://www.kraken.com/prices/bitcoin",
+      "slug": "bitcoin-and-ethereum-verified-market-snapshot-oct-13-2026-2c60d65a",
+      "fingerprint": "2c60d65ab25d70694a1cd72cf15c24c2b3e6a5d37eed64a9883c1bc71635e6f8",
+      "published_at": "2026-10-13T19:34:44.504495+00:00"
+    },
+    {
       "title": "Bitcoin and Ethereum market move - Oct 12, 2026",
       "url": "https://www.kraken.com/prices/bitcoin",
       "source": "Kraken with Coinbase cross-check",
@@ -207,5 +221,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "bb3302d4ffc13b1f85ca2717b118f3962c326f46d7ac560033c944c3a9b8afef"
+  "exported_latest_fingerprint": "2c60d65ab25d70694a1cd72cf15c24c2b3e6a5d37eed64a9883c1bc71635e6f8"
 }
