@@ -44,13 +44,28 @@ def display_date(value):
         return str(value)
 def news_image(relative):
     return f'<figure><img src="{relative}" width="1200" height="630" alt="EXIMUTC editorial illustration of a blue-green faceted gemstone" style="width:100%;height:auto;border-radius:12px"><figcaption>EXIMUTC editorial illustration</figcaption></figure>'
+def official_contact_links():
+    # Canonical, visible and clickable directory matching EXIMUTC NEWS captions.
+    items = [
+        ("📸 Instagram post", "https://www.instagram.com/p/DelCHsIJlhO/"),
+        ("➕ Instagram", "https://www.instagram.com/eximutcgems/"),
+        ("📘 Facebook", "https://www.facebook.com/share/19UtaXkuzG/?mibextid=wwXIfr"),
+        ("🧵 Threads", "https://www.threads.com/@eximutcgems"),
+        ("𝕏 X", "https://x.com/eximutc"),
+        ("💬 WhatsApp", "https://whatsapp.com/channel/0029Vb8SvzRCsU9VRLDFf01P"),
+        ("🌐 Website", "https://eximutc.com/"),
+    ]
+    return '<section aria-label="Official EXIMUTC links"><h2>EXIMUTC official links</h2>' + ''.join(
+        f'<p><a href="{esc(url)}" rel="noopener noreferrer">{esc(label)}: {esc(url)}</a></p>'
+        for label, url in items) + '</section>'
+
 def article_html(a):
     title=esc(a['title']); desc=esc(str(a.get('summary') or a.get('lead') or a['title'])[:155])
     body=esc(a.get('body') or a.get('summary') or '').replace('\n','</p><p>')
     view=esc(a.get('market_view') or 'EXIMUTC follows verified developments in the natural gemstone and fine-jewelry market and separates sourced facts from market commentary.')
     src=esc(a['source_url']); source=esc(a.get('source') or urlparse(a['source_url']).netloc)
     canonical=f"{BASE_URL}/articles/{a['slug']}.html"
-    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title} | EXIMUTC News</title><meta name="description" content="{desc}"><link rel="canonical" href="{canonical}"><meta property="og:type" content="article"><meta property="og:url" content="{canonical}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{BASE_URL}/assets/gemstone-news.svg"><meta property="og:title" content="{title}"><meta property="og:description" content="{desc}"><meta property="og:image" content="{BASE_URL}/assets/gemstone-news.svg"><style>*{{box-sizing:border-box}}body{{font-family:Arial,sans-serif;margin:auto;max-width:900px;padding:28px;color:#151515;line-height:1.65}}header{{border-bottom:1px solid #ddd;margin-bottom:32px}}a{{color:#075985;overflow-wrap:anywhere}}h1,h2,p{{overflow-wrap:anywhere}}@media(max-width:480px){{body{{padding:20px 16px}}}}.view{{background:#f5f7f8;padding:20px;margin:30px 0}}small{{color:#666}}</style></head><body><header><h2>EXIMUTC NEWS</h2><p><a href="../">Natural Gemstones & Fine Jewelry Market Intelligence</a></p></header><main><h1>{title}</h1><time datetime="{esc(a['published_at'])}">{esc(display_date(a['published_at']))}</time>{news_image('../assets/gemstone-news.svg')}<p>{body}</p><section class="view"><h2>EXIMUTC Market View</h2><p>{view}</p></section><h2>Source</h2><p>{source}: <a href="{src}" rel="nofollow noopener">{src}</a></p></main><footer><hr><p>EXIMUTC, INC. · <a href="https://eximutc.com">eximutc.com</a></p></footer></body></html>'''
+    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title} | EXIMUTC News</title><meta name="description" content="{desc}"><link rel="canonical" href="{canonical}"><meta property="og:type" content="article"><meta property="og:url" content="{canonical}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{BASE_URL}/assets/gemstone-news.svg"><meta property="og:title" content="{title}"><meta property="og:description" content="{desc}"><meta property="og:image" content="{BASE_URL}/assets/gemstone-news.svg"><style>*{{box-sizing:border-box}}body{{font-family:Arial,sans-serif;margin:auto;max-width:900px;padding:28px;color:#151515;line-height:1.65}}header{{border-bottom:1px solid #ddd;margin-bottom:32px}}a{{color:#075985;overflow-wrap:anywhere}}h1,h2,p{{overflow-wrap:anywhere}}@media(max-width:480px){{body{{padding:20px 16px}}}}.view{{background:#f5f7f8;padding:20px;margin:30px 0}}small{{color:#666}}</style></head><body><header><h2>EXIMUTC NEWS</h2><p><a href="../">Natural Gemstones & Fine Jewelry Market Intelligence</a></p></header><main><h1>{title}</h1><time datetime="{esc(a['published_at'])}">{esc(display_date(a['published_at']))}</time>{news_image('../assets/gemstone-news.svg')}<p>{body}</p><section class="view"><h2>EXIMUTC Market View</h2><p>{view}</p></section><h2>Source</h2><p>{source}: <a href="{src}" rel="nofollow noopener">{src}</a></p></main><footer><hr>{official_contact_links()}<p>EXIMUTC, INC. · Florida, USA</p></footer></body></html>'''
 
 def build_index(history):
     cards=''.join(f'<article><h2><a href="articles/{esc(x["slug"])}.html">{esc(x["title"])}</a></h2><p>{esc(x.get("summary",""))}</p><time datetime="{esc(x["published_at"])}">{esc(display_date(x["published_at"]))}</time></article>' for x in reversed(history))
