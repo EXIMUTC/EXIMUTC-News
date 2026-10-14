@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Precious metals update - Oct 14, 2026 07:30 AM EDT",
+      "url": "https://gold-api.com/docs",
+      "source": "Gold API (indicative spot)",
+      "summary": "Indicative spot prices in USD per troy ounce: gold $4,143.80, silver $58.69, platinum $1,657.00. Oldest underlying quote: Oct 14, 2026 08:02 AM EDT. Not executable exchange quotations.",
+      "why_eximutc": "",
+      "published": "2026-10-14T12:02:35.051272+00:00",
+      "market_view": "EXIMUTC: metal spot does not equal jewelry retail pricing. Rapaport reported 2026-09 RAPI changes: 0.30 ct +3.2%, 1.00 ct +0.3%. These are monthly asking-price index changes, not live dollar quotes.",
+      "kind": "market_update",
+      "source_url": "https://gold-api.com/docs",
+      "slug": "precious-metals-update-oct-14-2026-07-30-am-edt-89f25118",
+      "fingerprint": "89f251182564ad33e9f2fcfcbafb13a01e8753a991056de94f0a3328fcbfa376",
+      "published_at": "2026-10-14T14:07:37.965478+00:00"
+    },
+    {
       "title": "An 8.17-carat diamond ring leads Christie's online sale",
       "url": "https://www.jckonline.com/editorial-article/christies-jewels-online-2026-2",
       "source": "JCK",
@@ -249,5 +263,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "11d10f83890dfd7c76efa24ceaada3a85d7ea66a236611e87bde6009de320577"
+  "exported_latest_fingerprint": "89f251182564ad33e9f2fcfcbafb13a01e8753a991056de94f0a3328fcbfa376"
 }
