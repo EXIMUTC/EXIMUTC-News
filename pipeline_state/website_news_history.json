@@ -292,5 +292,19 @@
     "slug": "precious-metals-update-oct-14-2026-07-30-am-edt-89f25118",
     "fingerprint": "89f251182564ad33e9f2fcfcbafb13a01e8753a991056de94f0a3328fcbfa376",
     "published_at": "2026-10-14T14:07:41.504920+00:00"
+  },
+  {
+    "title": "Bitcoin and Ethereum market move - Oct 14, 2026",
+    "url": "https://www.kraken.com/prices/bitcoin",
+    "source": "Kraken with Coinbase cross-check",
+    "summary": "Notable crypto move. Kraken USD spot as checked Oct 14, 2026 at 04:54 PM EDT: BTC $81,691.30 (-1.70% vs Kraken UTC-day open); ETH $2,419.94 (-3.05% vs Kraken UTC-day open). Figures are a time-stamped exchange snapshot, not rolling 24-hour returns.",
+    "why_eximutc": "",
+    "published": "2026-10-14T20:54:45.015261+00:00",
+    "market_view": "EXIMUTC Market Watch: these figures describe cryptocurrency trading, not natural-gemstone values or jewelry prices. Cross-checked against Coinbase USD spot. Market prices vary by venue and time; this is not investment advice.",
+    "kind": "crypto_market",
+    "source_url": "https://www.kraken.com/prices/bitcoin",
+    "slug": "bitcoin-and-ethereum-market-move-oct-14-2026-e0d6b5ba",
+    "fingerprint": "e0d6b5ba9bc0c92b4351130549651053f1fbcadee276543a2faee6e3a2dd0511",
+    "published_at": "2026-10-14T20:56:21.760911+00:00"
   }
 ]
