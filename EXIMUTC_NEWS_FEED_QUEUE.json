@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Engagement-ring buyers prioritize design, survey finds",
+      "url": "https://rapaport.com/news/us-consumers-value-uniqueness-over-price-in-engagement-rings",
+      "source": "Rapaport",
+      "summary": "Jewelers Mutual says 52% put design or uniqueness first. Solitaire settings reached 37%, versus 22% in 2024, in its US survey.",
+      "why_eximutc": "",
+      "published": "2026-10-14T11:01:05+00:00",
+      "market_view": "EXIMUTC view: choose a ring for the wearer, but assess the individual gemstone, treatment disclosure and craftsmanship independently.",
+      "kind": "news",
+      "source_url": "https://rapaport.com/news/us-consumers-value-uniqueness-over-price-in-engagement-rings",
+      "slug": "engagement-ring-buyers-prioritize-design-survey-finds-b980d718",
+      "fingerprint": "b980d7185d8e2cc88fa43eb8fb5549946bd89f300d28c570fa8cfbffe5e27b30",
+      "published_at": "2026-10-15T01:41:07.327180+00:00"
+    },
+    {
       "title": "Bitcoin and Ethereum market move - Oct 14, 2026",
       "url": "https://www.kraken.com/prices/bitcoin",
       "source": "Kraken with Coinbase cross-check",
@@ -277,5 +291,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "e0d6b5ba9bc0c92b4351130549651053f1fbcadee276543a2faee6e3a2dd0511"
+  "exported_latest_fingerprint": "b980d7185d8e2cc88fa43eb8fb5549946bd89f300d28c570fa8cfbffe5e27b30"
 }
