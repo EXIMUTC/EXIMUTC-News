@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "LVMH reports 4% growth in jewelry and watch revenue",
+      "url": "https://rapaport.com/news/revenue-for-lvmhs-jewelry-segment-improves",
+      "source": "Rapaport",
+      "summary": "LVMH recorded about EUR 7.73 billion in Watches & Jewelry revenue for January-September 2026, up 4% year on year on a reported basis.",
+      "why_eximutc": "",
+      "published": "2026-10-13T10:25:41+00:00",
+      "market_view": "EXIMUTC view: major luxury-group revenue is not a pricing benchmark for a natural gemstone. Compare documented stones individually.",
+      "kind": "news",
+      "source_url": "https://rapaport.com/news/revenue-for-lvmhs-jewelry-segment-improves",
+      "slug": "lvmh-reports-4-growth-in-jewelry-and-watch-revenue-8f35b22a",
+      "fingerprint": "8f35b22a0af7a94ad04a9aa5402930654b507002369c02ed6005cc93212651ca",
+      "published_at": "2026-10-15T10:13:04.444529+00:00"
+    },
+    {
       "title": "Engagement-ring buyers prioritize design, survey finds",
       "url": "https://rapaport.com/news/us-consumers-value-uniqueness-over-price-in-engagement-rings",
       "source": "Rapaport",
@@ -291,5 +305,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "b980d7185d8e2cc88fa43eb8fb5549946bd89f300d28c570fa8cfbffe5e27b30"
+  "exported_latest_fingerprint": "8f35b22a0af7a94ad04a9aa5402930654b507002369c02ed6005cc93212651ca"
 }
