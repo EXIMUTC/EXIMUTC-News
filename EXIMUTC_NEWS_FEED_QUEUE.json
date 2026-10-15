@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Precious metals update - Oct 15, 2026 07:30 AM EDT",
+      "url": "https://gold-api.com/docs",
+      "source": "Gold API (indicative spot)",
+      "summary": "Indicative spot prices in USD per troy ounce: gold $4,153.80, silver $57.18, platinum $1,627.00. Oldest underlying quote: Oct 15, 2026 11:44 AM EDT. Not executable exchange quotations.",
+      "why_eximutc": "",
+      "published": "2026-10-15T15:44:49.257588+00:00",
+      "market_view": "EXIMUTC: metal spot does not equal jewelry retail pricing. Rapaport index update unverified; no diamond price given.",
+      "kind": "market_update",
+      "source_url": "https://gold-api.com/docs",
+      "slug": "precious-metals-update-oct-15-2026-07-30-am-edt-1bd07ea5",
+      "fingerprint": "1bd07ea57d6c9ee6377290a20a180a73a1f7f08dbb7c4464b4bc7b6ce49f206c",
+      "published_at": "2026-10-15T15:46:23.525582+00:00"
+    },
+    {
       "title": "LVMH reports 4% growth in jewelry and watch revenue",
       "url": "https://rapaport.com/news/revenue-for-lvmhs-jewelry-segment-improves",
       "source": "Rapaport",
@@ -305,5 +319,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "8f35b22a0af7a94ad04a9aa5402930654b507002369c02ed6005cc93212651ca"
+  "exported_latest_fingerprint": "1bd07ea57d6c9ee6377290a20a180a73a1f7f08dbb7c4464b4bc7b6ce49f206c"
 }
