@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Ancient Topazios was a source of peridot, not modern topaz",
+      "url": "https://www.gia.edu/peridot-history-lore",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: Historical accounts link the Red Sea island Topazios, now Zabargad, to the green gem peridot. Trade names changed as gem identification improved.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Historical names are not mineral IDs. Distinguish peridot from topaz using gemological properties.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/peridot-history-lore",
+      "slug": "ancient-topazios-was-a-source-of-peridot-not-modern-topaz-ffb8bd37",
+      "fingerprint": "ffb8bd376469e669b670e32e8ae8c00b54bbf138741afc8faa058ae93aa57ae3",
+      "published_at": "2026-10-16T15:28:34.588684+00:00"
+    },
+    {
       "title": "Tourmaline occurs in a remarkably wide range of colors",
       "url": "https://www.gia.edu/gia-website/tourmaline-description",
       "source": "Gemological Institute of America",
@@ -347,5 +361,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "7be9ff7fde55e870457ecb6fa37645f043ddca476d211247abe75d5e9f95fd22"
+  "exported_latest_fingerprint": "ffb8bd376469e669b670e32e8ae8c00b54bbf138741afc8faa058ae93aa57ae3"
 }
