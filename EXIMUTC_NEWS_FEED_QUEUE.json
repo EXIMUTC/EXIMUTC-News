@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Tourmaline occurs in a remarkably wide range of colors",
+      "url": "https://www.gia.edu/gia-website/tourmaline-description",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: Tourmaline includes blue, green, pink and red varieties; trade names such as rubellite refer to particular color ranges.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Judge the stone's tone, transparency and inclusions individually; a trade name is not a quality grade.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/gia-website/tourmaline-description",
+      "slug": "tourmaline-occurs-in-a-remarkably-wide-range-of-colors-7be9ff7f",
+      "fingerprint": "7be9ff7fde55e870457ecb6fa37645f043ddca476d211247abe75d5e9f95fd22",
+      "published_at": "2026-10-16T10:01:46.474989+00:00"
+    },
+    {
       "title": "Rainbow moonstone is often a labradorite feldspar",
       "url": "https://www.gia.edu/moonstone",
       "source": "Gemological Institute of America",
@@ -333,5 +347,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "c1b8b2d64e87ff420395eb3ba94abf1e6472da200a5571e1a5456a4da0dace32"
+  "exported_latest_fingerprint": "7be9ff7fde55e870457ecb6fa37645f043ddca476d211247abe75d5e9f95fd22"
 }
