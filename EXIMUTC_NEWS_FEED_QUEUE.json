@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Not every opal shows play-of-color",
+      "url": "https://www.gia.edu/opal-quality-factor",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: Gemologists distinguish precious opal, which has play-of-color, from common opal, which generally lacks it. Both are opal materials.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Describe the actual optical effect before assigning a price or quality category.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/opal-quality-factor",
+      "slug": "not-every-opal-shows-play-of-color-5769ec6e",
+      "fingerprint": "5769ec6eb13738ba6f66849c561022d50e812cbfee3ede6cf4f6d5e2b344cfbb",
+      "published_at": "2026-10-17T14:19:45.785286+00:00"
+    },
+    {
       "title": "Morganite honors collector J. P. Morgan",
       "url": "https://www.gia.edu/morganite-history-lore",
       "source": "Gemological Institute of America",
@@ -403,5 +417,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "5f5646bd15e949b49b7b05d26739581fa178d464374948eb254312cff25af6c6"
+  "exported_latest_fingerprint": "5769ec6eb13738ba6f66849c561022d50e812cbfee3ede6cf4f6d5e2b344cfbb"
 }
