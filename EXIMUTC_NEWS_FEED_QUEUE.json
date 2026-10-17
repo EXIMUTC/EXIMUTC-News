@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Natural and cultured pearls have different formation histories",
+      "url": "https://www.gia.edu/pearl-description",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: Cultured pearls are produced through intentional human intervention in a mollusc. Natural pearls form without pearl-farming intervention.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Always distinguish natural, cultured and imitation pearls in an invoice and any lab report.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/pearl-description",
+      "slug": "natural-and-cultured-pearls-have-different-formation-histories-9db16982",
+      "fingerprint": "9db16982911bae219f34db64bed5a03f9878e8724cf74f93ef9b659716b265df",
+      "published_at": "2026-10-17T19:36:19.897458+00:00"
+    },
+    {
       "title": "Not every opal shows play-of-color",
       "url": "https://www.gia.edu/opal-quality-factor",
       "source": "Gemological Institute of America",
@@ -417,5 +431,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "5769ec6eb13738ba6f66849c561022d50e812cbfee3ede6cf4f6d5e2b344cfbb"
+  "exported_latest_fingerprint": "9db16982911bae219f34db64bed5a03f9878e8724cf74f93ef9b659716b265df"
 }
