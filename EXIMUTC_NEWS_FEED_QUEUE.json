@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Jade quality assessment includes transparency and texture",
+      "url": "https://www.gia.edu/jade-quality-factor",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: Transparency and texture, along with color, help evaluate jadeite jade; these terms describe appearance, not proof of treatment.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Confirm the material is jadeite or nephrite and request any enhancement disclosures before comparing prices.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/jade-quality-factor",
+      "slug": "jade-quality-assessment-includes-transparency-and-texture-080afc9c",
+      "fingerprint": "080afc9cd2499225ab9ff8391e00736b4de0892a64b6a9ae7323f200e985c4a1",
+      "published_at": "2026-10-19T01:34:27.444641+00:00"
+    },
+    {
       "title": "Lugano Jewelry changes owners after restructuring",
       "url": "https://rapaport.com/news/middle-west-partners-buys-lugano-jewelry",
       "source": "Rapaport",
@@ -473,5 +487,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "1be423850eea108f22197188269b5fbb7d25eec7e0f8babce67d4a5789749bac"
+  "exported_latest_fingerprint": "080afc9cd2499225ab9ff8391e00736b4de0892a64b6a9ae7323f200e985c4a1"
 }
