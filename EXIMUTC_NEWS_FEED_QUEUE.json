@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Amethyst is the purple quartz variety",
+      "url": "https://www.gia.edu/amethyst-description",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: Amethyst belongs to the quartz mineral family, alongside citrine and rose quartz.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Look for natural-looking color distribution, transparency and cutting quality.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/amethyst-description",
+      "slug": "amethyst-is-the-purple-quartz-variety-d0b72e3f",
+      "fingerprint": "d0b72e3f62c82c0a923e1b1b137adbc1c6487dc752541e6eed3ae9ef3eb5df03",
+      "published_at": "2026-10-19T15:57:47.086701+00:00"
+    },
+    {
       "title": "Alexandrite can change appearance with the light source",
       "url": "https://www.gia.edu/alexandrite-description",
       "source": "Gemological Institute of America",
@@ -501,5 +515,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "76852fffeb875ddc901defa07eb431b7a023a9ddb4a834619e6515b1fde68466"
+  "exported_latest_fingerprint": "d0b72e3f62c82c0a923e1b1b137adbc1c6487dc752541e6eed3ae9ef3eb5df03"
 }
