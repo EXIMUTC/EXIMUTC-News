@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Ametrine combines purple and yellow quartz",
+      "url": "https://www.gia.edu/ametrine-description",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: Ametrine contains both amethyst-purple and citrine-yellow zones within a single quartz gem.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Verify natural formation when origin is claimed.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/ametrine-description",
+      "slug": "ametrine-combines-purple-and-yellow-quartz-897358e9",
+      "fingerprint": "897358e91290beace060f3f537d97ee2713d0b69be72c5250220caa825a341ed",
+      "published_at": "2026-10-19T21:43:18.252427+00:00"
+    },
+    {
       "title": "Amethyst is the purple quartz variety",
       "url": "https://www.gia.edu/amethyst-description",
       "source": "Gemological Institute of America",
@@ -515,5 +529,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "d0b72e3f62c82c0a923e1b1b137adbc1c6487dc752541e6eed3ae9ef3eb5df03"
+  "exported_latest_fingerprint": "897358e91290beace060f3f537d97ee2713d0b69be72c5250220caa825a341ed"
 }
