@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Not every garnet is a red stone",
+      "url": "https://www.gia.edu/garnet-description",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: Garnet is a family of gem minerals with many colors, including orange and green varieties.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Identify the variety before comparing two garnets' prices.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/garnet-description",
+      "slug": "not-every-garnet-is-a-red-stone-7054ee7e",
+      "fingerprint": "7054ee7ed0013ce847eb41517289e0efff98cc6cc6b43786f2e73e315446631e",
+      "published_at": "2026-10-20T23:18:53.148865+00:00"
+    },
+    {
       "title": "Tanzanite was discovered in Tanzania in 1967",
       "url": "https://www.gia.edu/tanzanite",
       "source": "Gemological Institute of America",
@@ -557,5 +571,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "37db9adadcddc5deeea456de13cd611b3146d3d07471965dd1c74b65b7e7f613"
+  "exported_latest_fingerprint": "7054ee7ed0013ce847eb41517289e0efff98cc6cc6b43786f2e73e315446631e"
 }
