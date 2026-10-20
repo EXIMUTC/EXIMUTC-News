@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Tanzanite was discovered in Tanzania in 1967",
+      "url": "https://www.gia.edu/tanzanite",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: This violet-blue variety of zoisite was discovered in 1967 near Mount Kilimanjaro and subsequently gained international attention.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: The discovery story concerns the variety; an individual stone still needs its own treatment and identity disclosures.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/tanzanite",
+      "slug": "tanzanite-was-discovered-in-tanzania-in-1967-37db9ada",
+      "fingerprint": "37db9adadcddc5deeea456de13cd611b3146d3d07471965dd1c74b65b7e7f613",
+      "published_at": "2026-10-20T13:05:51.360687+00:00"
+    },
+    {
       "title": "Many commercial citrines are heated amethyst",
       "url": "https://www.gia.edu/citrine-description",
       "source": "Gemological Institute of America",
@@ -543,5 +557,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "80eb34a488dc552ffefed5b1dc581ee45b01661a8743b5a773250250430dec77"
+  "exported_latest_fingerprint": "37db9adadcddc5deeea456de13cd611b3146d3d07471965dd1c74b65b7e7f613"
 }
