@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Many commercial citrines are heated amethyst",
+      "url": "https://www.gia.edu/citrine-description",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: Citrine is yellow to orange quartz, and heating purple amethyst is a widely used route to yellow material.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Ask about heating when natural untreated color matters.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/citrine-description",
+      "slug": "many-commercial-citrines-are-heated-amethyst-80eb34a4",
+      "fingerprint": "80eb34a488dc552ffefed5b1dc581ee45b01661a8743b5a773250250430dec77",
+      "published_at": "2026-10-20T02:00:49.217218+00:00"
+    },
+    {
       "title": "Ametrine combines purple and yellow quartz",
       "url": "https://www.gia.edu/ametrine-description",
       "source": "Gemological Institute of America",
@@ -529,5 +543,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "897358e91290beace060f3f537d97ee2713d0b69be72c5250220caa825a341ed"
+  "exported_latest_fingerprint": "80eb34a488dc552ffefed5b1dc581ee45b01661a8743b5a773250250430dec77"
 }
