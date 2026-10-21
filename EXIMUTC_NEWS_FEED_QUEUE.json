@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Jade may refer to jadeite or nephrite",
+      "url": "https://www.gia.edu/jade-description",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: The jewelry term jade covers two distinct mineral materials called jadeite and nephrite.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Confirm which one is being sold and whether dye or polymer treatment is present.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/jade-description",
+      "slug": "jade-may-refer-to-jadeite-or-nephrite-3cd60d82",
+      "fingerprint": "3cd60d82c09bc48aa87dd465f378bd0c16c0a1f8750e9fff19567c04e7037125",
+      "published_at": "2026-10-21T07:54:53.439977+00:00"
+    },
+    {
       "title": "Tsavorite is a green grossular garnet",
       "url": "https://www.gia.edu/garnet-quality-factor",
       "source": "Gemological Institute of America",
@@ -585,5 +599,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "a343bf067d23d7437a18c874fe3e5d9f78f776fd98b60aa6d34c252051a71a2b"
+  "exported_latest_fingerprint": "3cd60d82c09bc48aa87dd465f378bd0c16c0a1f8750e9fff19567c04e7037125"
 }
