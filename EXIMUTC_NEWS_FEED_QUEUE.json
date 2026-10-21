@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Tsavorite is a green grossular garnet",
+      "url": "https://www.gia.edu/garnet-quality-factor",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: Green tsavorite belongs to the grossular group and differs from green demantoid andradite.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Verify exact garnet variety along with color and clarity.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/garnet-quality-factor",
+      "slug": "tsavorite-is-a-green-grossular-garnet-a343bf06",
+      "fingerprint": "a343bf067d23d7437a18c874fe3e5d9f78f776fd98b60aa6d34c252051a71a2b",
+      "published_at": "2026-10-21T01:48:23.789716+00:00"
+    },
+    {
       "title": "Not every garnet is a red stone",
       "url": "https://www.gia.edu/garnet-description",
       "source": "Gemological Institute of America",
@@ -571,5 +585,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "7054ee7ed0013ce847eb41517289e0efff98cc6cc6b43786f2e73e315446631e"
+  "exported_latest_fingerprint": "a343bf067d23d7437a18c874fe3e5d9f78f776fd98b60aa6d34c252051a71a2b"
 }
