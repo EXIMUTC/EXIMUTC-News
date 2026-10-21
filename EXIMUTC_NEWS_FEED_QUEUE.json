@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Strong sunlight can fade some kunzite",
+      "url": "https://www.gia.edu/kunzite-care-cleaning",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: Prolonged exposure to bright light may weaken the pink color of some kunzite stones.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Store gems away from direct long-term sunlight and strong display lighting.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/kunzite-care-cleaning",
+      "slug": "strong-sunlight-can-fade-some-kunzite-45100b5d",
+      "fingerprint": "45100b5df6f698dc3eaf7c8e6c15c8a2aea7b402da41918c868a67a70f4cd1bf",
+      "published_at": "2026-10-21T11:44:11.039142+00:00"
+    },
+    {
       "title": "Jade may refer to jadeite or nephrite",
       "url": "https://www.gia.edu/jade-description",
       "source": "Gemological Institute of America",
@@ -599,5 +613,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "3cd60d82c09bc48aa87dd465f378bd0c16c0a1f8750e9fff19567c04e7037125"
+  "exported_latest_fingerprint": "45100b5df6f698dc3eaf7c8e6c15c8a2aea7b402da41918c868a67a70f4cd1bf"
 }
