@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Kunzite is pink-to-violet spodumene",
+      "url": "https://www.gia.edu/kunzite-description",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: Kunzite is a pink to violet gem variety of spodumene, appreciated for its delicate colors.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Consider light sensitivity when selecting and storing the gem.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/kunzite-description",
+      "slug": "kunzite-is-pink-to-violet-spodumene-6ce11566",
+      "fingerprint": "6ce115660024903d1ad83fe294c2a232f8cbf5367e177d7eab62604270bd71e7",
+      "published_at": "2026-10-21T14:01:03.650104+00:00"
+    },
+    {
       "title": "Strong sunlight can fade some kunzite",
       "url": "https://www.gia.edu/kunzite-care-cleaning",
       "source": "Gemological Institute of America",
@@ -613,5 +627,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "45100b5df6f698dc3eaf7c8e6c15c8a2aea7b402da41918c868a67a70f4cd1bf"
+  "exported_latest_fingerprint": "6ce115660024903d1ad83fe294c2a232f8cbf5367e177d7eab62604270bd71e7"
 }
