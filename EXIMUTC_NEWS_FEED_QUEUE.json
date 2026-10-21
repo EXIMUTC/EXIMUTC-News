@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Corundum treatment can affect sapphire care",
+      "url": "https://www.gia.edu/sapphire-care-cleaning",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: Sapphire is durable, but certain treatments such as filling may change how a particular gemstone should be cleaned.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Request a treatment report before steam or ultrasonic cleaning if fracture filling is possible.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/sapphire-care-cleaning",
+      "slug": "corundum-treatment-can-affect-sapphire-care-9902b9d4",
+      "fingerprint": "9902b9d4ad7e70227fc101cc123dc0fbb4d6dd4f79b4d033cb7eddb41ec4acc5",
+      "published_at": "2026-10-21T18:50:29.288550+00:00"
+    },
+    {
       "title": "Kunzite is pink-to-violet spodumene",
       "url": "https://www.gia.edu/kunzite-description",
       "source": "Gemological Institute of America",
@@ -627,5 +641,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "6ce115660024903d1ad83fe294c2a232f8cbf5367e177d7eab62604270bd71e7"
+  "exported_latest_fingerprint": "9902b9d4ad7e70227fc101cc123dc0fbb4d6dd4f79b4d033cb7eddb41ec4acc5"
 }
