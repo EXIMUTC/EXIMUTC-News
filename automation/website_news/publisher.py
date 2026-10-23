@@ -27,7 +27,7 @@ def load_json(p, default):
 
 def pick_item(queue, history):
     items=queue if isinstance(queue,list) else queue.get('items') or queue.get('stories') or queue.get('queue') or []
-    seen={x.get('fingerprint') for x in history}
+    seen={x.get('fingerprint') or fingerprint(x) for x in history if x.get('title') and (x.get('source_url') or x.get('url'))}
     for raw in items:
         x={**raw, 'title':raw.get('title') or raw.get('headline'),
            'source_url':raw.get('source_url') or raw.get('url'),
@@ -91,6 +91,8 @@ def main():
         record={**item,'slug':slug,'fingerprint':fingerprint(item),'published_at':now}
         (OUT/'articles'/f'{slug}.html').write_text(article_html(record))
         history.append(record); STATE.write_text(json.dumps(history,indent=2,ensure_ascii=False))
+    if not item:
+        print('::warning title=EXIMUTC Website News queue depleted::No unpublished approved article available; existing publications remain intact. Replenish the editorial feed.', flush=True)
     STATE.write_text(json.dumps(history,indent=2,ensure_ascii=False))
     for record in history:
         (OUT/'articles'/f"{record['slug']}.html").write_text(article_html(record))
@@ -99,5 +101,5 @@ def main():
     (OUT/'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n')
     urls=[f'{BASE_URL}/']+[f'{BASE_URL}/articles/{x["slug"]}.html' for x in history]
     (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{esc(u)}</loc></url>' for u in urls)+'</urlset>')
-    print(json.dumps({'status':'ok','new_article':bool(item),'articles':len(history)}))
+    print(json.dumps({'status':'published' if item else 'queue_depleted','new_article':bool(item),'articles':len(history)}))
 if __name__=='__main__':main()
