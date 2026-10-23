@@ -47,13 +47,13 @@ def news_image(relative):
 def official_contact_links():
     # Canonical, visible and clickable directory matching EXIMUTC NEWS captions.
     items = [
-        ("📸 Instagram post", "https://www.instagram.com/p/DelCHsIJlhO/"),
-        ("➕ Instagram", "https://www.instagram.com/eximutcgems/"),
-        ("📘 Facebook", "https://www.facebook.com/share/19UtaXkuzG/?mibextid=wwXIfr"),
-        ("🧵 Threads", "https://www.threads.com/@eximutcgems"),
+        ("➕Instagram", "https://www.instagram.com/eximutcgems/"),
+        ("💬DM", "https://ig.me/m/eximutcgems"),
+        ("📘Facebook", "https://www.facebook.com/share/19UtaXkuzG/?mibextid=wwXIfr"),
+        ("🧵Threads", "https://www.threads.com/@eximutcgems"),
         ("𝕏 X", "https://x.com/eximutc"),
-        ("💬 WhatsApp", "https://whatsapp.com/channel/0029Vb8SvzRCsU9VRLDFf01P"),
-        ("🌐 Website", "https://eximutc.com/"),
+        ("💬WhatsApp", "https://whatsapp.com/channel/0029Vb8SvzRCsU9VRLDFf01P"),
+        ("🌐Website", "https://eximutc.com/"),
     ]
     return '<section aria-label="Official EXIMUTC links"><h2>EXIMUTC official links</h2>' + ''.join(
         f'<p><a href="{esc(url)}" rel="noopener noreferrer">{esc(label)}: {esc(url)}</a></p>'
