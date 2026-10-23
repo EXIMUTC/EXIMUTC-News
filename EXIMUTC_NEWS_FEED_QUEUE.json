@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Diamond is a crystal form of carbon",
+      "url": "https://www.gia.edu/diamond-description",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: Diamond is a carbon mineral with properties distinct from transparent substitutes.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Seek an independent diamond identification and grading report.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/diamond-description",
+      "slug": "diamond-is-a-crystal-form-of-carbon-05397d3d",
+      "fingerprint": "05397d3db1ede19859652d5beced9a00ec127943b8e55595453d84212be4d5f5",
+      "published_at": "2026-10-23T23:34:03.963923+00:00"
+    },
+    {
       "title": "Sapphire evaluation combines color and treatment",
       "url": "https://www.gia.edu/sapphire-quality-factor",
       "source": "Gemological Institute of America",
@@ -711,5 +725,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "66108ccda0563eb2c8bd6bf1cea96f3262d7c0e33399c28b3b39a2fdcd42ecae"
+  "exported_latest_fingerprint": "05397d3db1ede19859652d5beced9a00ec127943b8e55595453d84212be4d5f5"
 }
