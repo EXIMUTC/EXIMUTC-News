@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Sapphire evaluation combines color and treatment",
+      "url": "https://www.gia.edu/sapphire-quality-factor",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: The appearance of sapphire depends on color, clarity and cut; some stones are treated.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: A trade color label does not replace a proper laboratory report.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/sapphire-quality-factor",
+      "slug": "sapphire-evaluation-combines-color-and-treatment-66108ccd",
+      "fingerprint": "66108ccda0563eb2c8bd6bf1cea96f3262d7c0e33399c28b3b39a2fdcd42ecae",
+      "published_at": "2026-10-23T23:17:33.580016+00:00"
+    },
+    {
       "title": "Heating can alter the color of some zircon",
       "url": "https://www.gia.edu/zircon-quality-factor",
       "source": "Gemological Institute of America",
@@ -697,5 +711,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "1e418a382a1d0e31d4adcd6e4e095c2c275dc04b7dfb9aba0b4aedc002f9e698"
+  "exported_latest_fingerprint": "66108ccda0563eb2c8bd6bf1cea96f3262d7c0e33399c28b3b39a2fdcd42ecae"
 }
