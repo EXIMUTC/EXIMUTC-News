@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Heating can alter the color of some zircon",
+      "url": "https://www.gia.edu/zircon-quality-factor",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: Zircon occurs in several hues; controlled heating is sometimes used to create marketable blue or other colors.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Ask whether color was heat enhanced, especially for vivid blue zircon.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/zircon-quality-factor",
+      "slug": "heating-can-alter-the-color-of-some-zircon-1e418a38",
+      "fingerprint": "1e418a382a1d0e31d4adcd6e4e095c2c275dc04b7dfb9aba0b4aedc002f9e698",
+      "published_at": "2026-10-23T17:57:48.251319+00:00"
+    },
+    {
       "title": "Precious metals update - Oct 22, 2026 07:30 AM EDT",
       "url": "https://gold-api.com/docs",
       "source": "Gold API (indicative spot)",
@@ -683,5 +697,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "1af5f8c092ef54c5c5147fb55ba0e97fa2f18a0ed94e46f9504d32f247bbb85f"
+  "exported_latest_fingerprint": "1e418a382a1d0e31d4adcd6e4e095c2c275dc04b7dfb9aba0b4aedc002f9e698"
 }
