@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "The way a diamond is cut influences brilliance",
+      "url": "https://www.gia.edu/diamond-quality-factor",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: Facet proportions and polishing can change how effectively a faceted diamond returns and disperses light.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Examine cutting quality alongside color, clarity and carat weight.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/diamond-quality-factor",
+      "slug": "the-way-a-diamond-is-cut-influences-brilliance-3a9104bc",
+      "fingerprint": "3a9104bc6433591f98d9094fb432e0ff489e867a32fcf34ee9fd53100e4b2336",
+      "published_at": "2026-10-24T17:32:50.997831+00:00"
+    },
+    {
       "title": "A diamond is not immune to chips and fractures",
       "url": "https://www.gia.edu/diamond-care-cleaning",
       "source": "Gemological Institute of America",
@@ -753,5 +767,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "b8802a025cedaaec7dd27b990176d12ada7d6cad40ad5430f331e698339ac8ac"
+  "exported_latest_fingerprint": "3a9104bc6433591f98d9094fb432e0ff489e867a32fcf34ee9fd53100e4b2336"
 }
