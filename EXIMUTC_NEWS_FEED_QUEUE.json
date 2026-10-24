@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Aquamarine and emerald are varieties of beryl",
+      "url": "https://www.gia.edu/aquamarine-description",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: Aquamarine is a blue to greenish-blue beryl, while emerald is the green member of the same mineral family.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Request disclosure of any color-enhancing treatment before comparison.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/aquamarine-description",
+      "slug": "aquamarine-and-emerald-are-varieties-of-beryl-8b95aba6",
+      "fingerprint": "8b95aba6314ea946ef66c9bc44bf93e2f2b1e1201be1d859fc73b3d9810d2144",
+      "published_at": "2026-10-24T07:31:29.492407+00:00"
+    },
+    {
       "title": "Diamond is a crystal form of carbon",
       "url": "https://www.gia.edu/diamond-description",
       "source": "Gemological Institute of America",
@@ -725,5 +739,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "05397d3db1ede19859652d5beced9a00ec127943b8e55595453d84212be4d5f5"
+  "exported_latest_fingerprint": "8b95aba6314ea946ef66c9bc44bf93e2f2b1e1201be1d859fc73b3d9810d2144"
 }
