@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Peridot is the green gem variety of olivine",
+      "url": "https://www.gia.edu/peridot-description",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: Peridot is the gem variety of olivine, with magnesium and iron in its composition. Iron is responsible for its characteristic green to yellowish-green color. Unlike a trade label based only on appearance, the name identifies a particular mineral material. Other green gems, including emerald and green garnet, belong to different mineral groups.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Start with identification of the actual stone, then compare its shade, transparency and cutting. A green appearance alone cannot establish that a gem is peridot, and a photograph cannot provide a mineral identification. Ask for documentation when the identity is uncertain. Evaluate the individual specimen without transferring claims about emerald or green garnet to it.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/peridot-description",
+      "slug": "peridot-is-the-green-gem-variety-of-olivine-d0015587",
+      "fingerprint": "d00155876b50f711ed9a68e86d57df2f256d805a03733c3472771dc79c2338b6",
+      "published_at": "2026-10-25T22:43:35.058995+00:00"
+    },
+    {
       "title": "Aquamarine's blue saturation matters to its appearance",
       "url": "https://www.gia.edu/aquamarine-quality-factor",
       "source": "Gemological Institute of America",
@@ -837,5 +851,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "cf36e425e5d122c1f6a5d84080b7f6b57ffb3ec9412e61cf59c08199fc0b78b4"
+  "exported_latest_fingerprint": "d00155876b50f711ed9a68e86d57df2f256d805a03733c3472771dc79c2338b6"
 }
