@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Copper helps give Paraiba tourmaline its vivid blue",
+      "url": "https://www.gia.edu/tourmaline-description",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: Copper contributes to the distinctive blue-to-green coloration of Paraiba-type tourmaline; color alone does not prove geographic origin.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Request evidence for copper-bearing identity, treatment and country of origin separately.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/tourmaline-description",
+      "slug": "copper-helps-give-paraiba-tourmaline-its-vivid-blue-cfc5f3ad",
+      "fingerprint": "cfc5f3ad0fa44c12880ead2a7ad8e978b82ba622ffa2d4972fd928d5322dc7c4",
+      "published_at": "2026-10-25T01:24:43.503868+00:00"
+    },
+    {
       "title": "Emerald is the green mineral variety of beryl",
       "url": "https://www.gia.edu/emerald-description",
       "source": "Gemological Institute of America",
@@ -781,5 +795,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "94a88628b0fa3fc7bec37ea760c49a9d90f344d8959f2e8d966096dc65a5b69f"
+  "exported_latest_fingerprint": "cfc5f3ad0fa44c12880ead2a7ad8e978b82ba622ffa2d4972fd928d5322dc7c4"
 }
