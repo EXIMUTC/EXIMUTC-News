@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Aquamarine's blue saturation matters to its appearance",
+      "url": "https://www.gia.edu/aquamarine-quality-factor",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: Aquamarine ranges from pale greenish blue to a more intense blue. Color strength is a major quality factor, and a larger stone is not automatically better colored. Much aquamarine is heated to reduce its green component and produce a purer blue. Appearance and treatment therefore need to be considered separately when comparing stones.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Compare aquamarines face up under the same lighting, looking at the strength and evenness of the blue before comparing carat weight. Ask whether heating has changed the color, especially when untreated material is your priority. A useful comparison should describe the actual color, cutting and disclosed treatment, rather than rely on size or a flattering photograph alone.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/aquamarine-quality-factor",
+      "slug": "aquamarine-s-blue-saturation-matters-to-its-appearance-cf36e425",
+      "fingerprint": "cf36e425e5d122c1f6a5d84080b7f6b57ffb3ec9412e61cf59c08199fc0b78b4",
+      "published_at": "2026-10-25T17:45:48.397205+00:00"
+    },
+    {
       "title": "Why do opals flash rainbow colors? Silica spheres",
       "url": "https://www.gia.edu/opal-description",
       "source": "Gemological Institute of America",
@@ -823,5 +837,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "7d4acd720988716634b77b35a9d47994aa8df5e6ea84490a4d3c185201bb30d4"
+  "exported_latest_fingerprint": "cf36e425e5d122c1f6a5d84080b7f6b57ffb3ec9412e61cf59c08199fc0b78b4"
 }
