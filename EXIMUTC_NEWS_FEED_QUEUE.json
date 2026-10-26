@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Copper contributes to the blue of turquoise",
+      "url": "https://www.gia.edu/turquoise-description",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: Turquoise is a hydrated copper-aluminum phosphate. It forms where copper-rich water reacts with minerals containing aluminum and phosphorus. Its colors range from blue to green, and remnants of the surrounding rock can form dark veins called matrix. Both color and matrix influence appearance, so two pieces of genuine turquoise can look quite different.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Compare the actual color, texture and matrix pattern rather than assuming that all turquoise should look uniformly sky blue. Ask whether the material has been dyed or stabilized and request disclosure for the specific piece. A color description is not evidence of geographic origin. Choose the pattern deliberately, while keeping appearance, identity and treatment as separate questions.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/turquoise-description",
+      "slug": "copper-contributes-to-the-blue-of-turquoise-8c0cefce",
+      "fingerprint": "8c0cefce4fa8a0dfb2534133c1e47f9ca09915046ef989a656907633d899ebc6",
+      "published_at": "2026-10-26T08:00:37.177032+00:00"
+    },
+    {
       "title": "Turquoise deserves protection from chemicals",
       "url": "https://www.gia.edu/turquoise-care-cleaning",
       "source": "Gemological Institute of America",
@@ -865,5 +879,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "0405e2bd730cb7875b4ef33185a3e96a2a1d19c19e193f0930c257c967048e3e"
+  "exported_latest_fingerprint": "8c0cefce4fa8a0dfb2534133c1e47f9ca09915046ef989a656907633d899ebc6"
 }
