@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Ruby and sapphire both belong to the corundum family",
+      "url": "https://www.gia.edu/sapphire-description",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: Ruby and sapphire are varieties of the same mineral species, corundum. Red gem corundum is called ruby; sapphire includes blue and many other colors. Chromium produces ruby's red, while different trace elements contribute to other corundum colors. The shared mineral identity explains the relationship, but does not make the varieties interchangeable in a gem description.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Ask for the mineral variety, color and treatment to be described separately. A non-blue sapphire is not an imitation merely because it differs from the familiar blue variety. Equally, a red appearance alone cannot prove that a stone is ruby. Use identification and treatment evidence for the actual gem before comparing descriptions or choosing a stone for a piece of jewelry.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/sapphire-description",
+      "slug": "ruby-and-sapphire-both-belong-to-the-corundum-family-00851570",
+      "fingerprint": "008515702ed83af4da30ed2a40127878f6df52baae2b8ad835e688ec6a80228d",
+      "published_at": "2026-10-26T21:48:03.339316+00:00"
+    },
+    {
       "title": "Copper contributes to the blue of turquoise",
       "url": "https://www.gia.edu/turquoise-description",
       "source": "Gemological Institute of America",
@@ -879,5 +893,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "8c0cefce4fa8a0dfb2534133c1e47f9ca09915046ef989a656907633d899ebc6"
+  "exported_latest_fingerprint": "008515702ed83af4da30ed2a40127878f6df52baae2b8ad835e688ec6a80228d"
 }
