@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Turquoise deserves protection from chemicals",
+      "url": "https://www.gia.edu/turquoise-care-cleaning",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: Turquoise can be porous and may discolor through contact with cosmetics, chemicals, skin oils or perspiration. High heat can also damage its surface. Some material is treated to improve appearance or stability, and solvents may affect treated surfaces. Care therefore depends on both the gemstone and any treatment, not simply on its blue or green color.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Ask about treatment before selecting a cleaning method. Keep perfume, cosmetics and household chemicals away from the stone, and avoid steam or ultrasonic cleaning. Use gentle care appropriate to the actual piece and consult the jeweler if its treatment is unknown. Preserving the surface is more useful than trying to restore color with an unverified cleaning product.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/turquoise-care-cleaning",
+      "slug": "turquoise-deserves-protection-from-chemicals-0405e2bd",
+      "fingerprint": "0405e2bd730cb7875b4ef33185a3e96a2a1d19c19e193f0930c257c967048e3e",
+      "published_at": "2026-10-26T03:06:13.602715+00:00"
+    },
+    {
       "title": "Peridot is the green gem variety of olivine",
       "url": "https://www.gia.edu/peridot-description",
       "source": "Gemological Institute of America",
@@ -851,5 +865,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "d00155876b50f711ed9a68e86d57df2f256d805a03733c3472771dc79c2338b6"
+  "exported_latest_fingerprint": "0405e2bd730cb7875b4ef33185a3e96a2a1d19c19e193f0930c257c967048e3e"
 }
