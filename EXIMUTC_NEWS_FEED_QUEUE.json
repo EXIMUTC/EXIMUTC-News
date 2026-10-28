@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Pearl nacre contains plate-like aragonite crystals",
+      "url": "https://www.gia.edu/pearl",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: Nacre is built from plate-like aragonite crystals, a form of calcium carbonate, held together by organic material. Light interacts with the pearl's surface and concentric nacre layers to produce luster. Nacre is therefore part of the structure behind a pearl's appearance, rather than simply a color description. Its condition matters alongside shape, surface and matching in jewelry.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Inspect the surface and reflections on the actual pearls, including areas near drill holes and settings. Request the pearl type and any enhancement disclosures separately from an assessment of luster. For a pair or strand, compare the pearls together: an attractive single pearl does not establish that the whole set matches. Ask the supplier to explain how nacre quality was assessed.",
+      "kind": "evergreen_gem_fact",
+      "source_url": "https://www.gia.edu/pearl",
+      "slug": "pearl-nacre-contains-plate-like-aragonite-crystals-fa04f524",
+      "fingerprint": "fa04f5244499ee66ed1c4e7fa943ba105a5d7fea024d594a823bd5c64a681b49",
+      "published_at": "2026-10-28T02:37:50.147171+00:00"
+    },
+    {
       "title": "Pearls need gentle care around chemicals",
       "url": "https://www.gia.edu/pearl-care-cleaning",
       "source": "Gemological Institute of America",
@@ -907,5 +921,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "50d15a4c23f62d113fcbd4c01ce9cf982a3ac3c5672b553d729cbc9fbb6afc61"
+  "exported_latest_fingerprint": "fa04f5244499ee66ed1c4e7fa943ba105a5d7fea024d594a823bd5c64a681b49"
 }
