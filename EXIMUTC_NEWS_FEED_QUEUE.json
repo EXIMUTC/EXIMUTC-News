@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "How a novel helped create opal’s unlucky reputation",
+      "url": "https://www.gia.edu/opal-history-lore",
+      "source": "Gemological Institute of America",
+      "summary": "GEM HISTORY: Opal is considered an October birthstone. Some people think it’s unlucky for anyone born in another month to wear an opal. But that particular superstition comes from a novel written in the 1800s ( Anne of Geierstein by Sir Walter Scott), and not from any ancient belief or experience. In fact, throughout most of history, opal has been regarded as the luckiest and most magical of all gems because it can show all colors. Once, it was thought to have the power to preserve the life and color of blond hair.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Examine an opal in motion so that brightness, pattern and color coverage can be compared across the face. A single photograph records only one angle and one lighting arrangement. Ask for a continuous view of the actual stone and assess how its pattern reads in the intended setting. The physical explanation describes opal's optical effect; it does not establish the origin, treatment or value of a particular specimen.",
+      "kind": "evergreen_source_excerpt",
+      "source_url": "https://www.gia.edu/opal-history-lore",
+      "slug": "how-a-novel-helped-create-opal-s-unlucky-reputation-2ed97b46",
+      "fingerprint": "2ed97b468a05f336282be2c56c31690f779bc3f128864d6351d5c408f2233632",
+      "published_at": "2026-10-30T00:02:44.901058+00:00"
+    },
+    {
       "title": "Pearl nacre contains plate-like aragonite crystals",
       "url": "https://www.gia.edu/pearl",
       "source": "Gemological Institute of America",
@@ -921,5 +935,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "fa04f5244499ee66ed1c4e7fa943ba105a5d7fea024d594a823bd5c64a681b49"
+  "exported_latest_fingerprint": "2ed97b468a05f336282be2c56c31690f779bc3f128864d6351d5c408f2233632"
 }
