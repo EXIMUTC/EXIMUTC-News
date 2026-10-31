@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Abundant alexandrite deposits were first discovered in 1830 in Russia’s Ural Mountains",
+      "url": "https://www.gia.edu/alexandrite-history-lore",
+      "source": "Gemological Institute of America",
+      "summary": "GEM HISTORY: Abundant alexandrite deposits were first discovered in 1830 in Russia’s Ural Mountains. Those first alexandrites were of very fine quality and displayed vivid hues and dramatic color change. The gem was named after the young Alexander II, heir apparent to the throne. It caught the country’s attention because its red and green colors mirrored the national military colors of imperial Russia.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Inspect an individual alexandrite in documented light sources before deciding its color change is exceptional.",
+      "kind": "evergreen_source_excerpt",
+      "source_url": "https://www.gia.edu/alexandrite-history-lore",
+      "slug": "abundant-alexandrite-deposits-were-first-discovered-in-1830-in-russia-s-ural-mou-be775717",
+      "fingerprint": "be775717f1c93b14336d58f791f2eac4705d5b6e2f7a1ada06ffeef5566a9f2f",
+      "published_at": "2026-10-31T11:06:40.941415+00:00"
+    },
+    {
       "title": "Tanzanite is relatively new to the colored stone galaxy",
       "url": "https://www.gia.edu/tanzanite-history-lore",
       "source": "Gemological Institute of America",
@@ -963,5 +977,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "5dc12a89bb94c4d24f6f78b0a763d9dcc538239ec071c56ce7c28452eed7b48a"
+  "exported_latest_fingerprint": "be775717f1c93b14336d58f791f2eac4705d5b6e2f7a1ada06ffeef5566a9f2f"
 }
