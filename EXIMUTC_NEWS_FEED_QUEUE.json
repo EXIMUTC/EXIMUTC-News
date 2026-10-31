@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Tanzanite is relatively new to the colored stone galaxy",
+      "url": "https://www.gia.edu/tanzanite-history-lore",
+      "source": "Gemological Institute of America",
+      "summary": "GEMOLOGY FACT: Tanzanite is relatively new to the colored stone galaxy. As the most common story of the tanzanite mining boom goes, in 1967 a Masai tribesman stumbled upon a cluster of highly transparent, intense violet-to-blue crystals weathering out of the earth in Merelani, an area of northern Tanzania. He alerted a local fortune hunter named Manuel d'Souza, who quickly registered four mining claims.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "EXIMUTC view: Brand history is useful context but does not establish whether an individual tanzanite was heated.",
+      "kind": "evergreen_source_excerpt",
+      "source_url": "https://www.gia.edu/tanzanite-history-lore",
+      "slug": "tanzanite-is-relatively-new-to-the-colored-stone-galaxy-5dc12a89",
+      "fingerprint": "5dc12a89bb94c4d24f6f78b0a763d9dcc538239ec071c56ce7c28452eed7b48a",
+      "published_at": "2026-10-31T02:41:08.393136+00:00"
+    },
+    {
       "title": "The name for imperial topaz originated in nineteenth-century Russia",
       "url": "https://www.gia.edu/topaz-history-lore",
       "source": "Gemological Institute of America",
@@ -949,5 +963,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "5fb9b987e325350ef9e297cd77587ab607a14bc10be49a7d62ce76d30b27bef1"
+  "exported_latest_fingerprint": "5dc12a89bb94c4d24f6f78b0a763d9dcc538239ec071c56ce7c28452eed7b48a"
 }
