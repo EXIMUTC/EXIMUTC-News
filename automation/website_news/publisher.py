@@ -51,7 +51,7 @@ def official_contact_links():
         ("💬DM", "https://ig.me/m/eximutcgems"),
         ("📘Facebook", "https://www.facebook.com/share/19UtaXkuzG/?mibextid=wwXIfr"),
         ("🧵Threads", "https://www.threads.com/@eximutcgems"),
-        ("𝕏 X", "https://x.com/eximutc"),
+        ("Telegram", "https://t.me/eximutc"),
         ("💬WhatsApp", "https://whatsapp.com/channel/0029Vb8SvzRCsU9VRLDFf01P"),
         ("🌐Website", "https://eximutc.com/"),
     ]

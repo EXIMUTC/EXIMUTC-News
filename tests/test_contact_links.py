@@ -39,3 +39,9 @@ class ContactLinksTest(unittest.TestCase):
 
     def test_not_an_instagram_native_sticker(self):
         self.assertNotIn('native_sticker_verified', PAGE.read_text(encoding="utf-8"))
+
+    def test_generated_article_footer_matches_active_channel_directory(self):
+        from automation.website_news.publisher import official_contact_links
+        parser = AnchorParser()
+        parser.feed(official_contact_links())
+        self.assertEqual(parser.links, REQUIRED)

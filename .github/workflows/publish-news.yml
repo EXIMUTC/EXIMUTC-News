@@ -1,5 +1,11 @@
 name: Publish EXIMUTC News
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'automation/website_news/**'
+      - 'tests/**'
+      - '.github/workflows/publish-news.yml'
   workflow_dispatch:
   schedule:
     - cron: '0 */3 * * *'
