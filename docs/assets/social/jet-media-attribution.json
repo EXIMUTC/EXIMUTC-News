@@ -1,0 +1,52 @@
+{
+  "status": "STAGED_MEDIA_ONLY_NOT_A_PUBLICATION",
+  "video_creator": "Talas Art",
+  "source": "https://commons.wikimedia.org/wiki/File:Raven_Pendant_carved_in_fossil_Black_jet_stone.webm",
+  "license": "https://creativecommons.org/licenses/by/3.0/",
+  "adaptations": "Edited extracts, portrait crop, new English narration and EXIMUTC logo. Creator identifies material as jet; not independent specimen testing.",
+  "museum_photos": "The Metropolitan Museum of Art, CC0; objects450080 and5257; separate historical illustrations.",
+  "files": [
+    {
+      "role": "s1_jpeg.jpeg",
+      "filename": "524953544f4d7f1c01731d68382038c808799338820856dcda491305eecce2e5.jpg",
+      "sha256": "524953544f4d7f1c01731d68382038c808799338820856dcda491305eecce2e5",
+      "url": "https://news.eximutc.com/assets/social/524953544f4d7f1c01731d68382038c808799338820856dcda491305eecce2e5.jpg"
+    },
+    {
+      "role": "s2_jpeg.jpeg",
+      "filename": "27e095c5ad0298b41778e571b57f093bfa38091ad94d6672930551cd6f132197.jpg",
+      "sha256": "27e095c5ad0298b41778e571b57f093bfa38091ad94d6672930551cd6f132197",
+      "url": "https://news.eximutc.com/assets/social/27e095c5ad0298b41778e571b57f093bfa38091ad94d6672930551cd6f132197.jpg"
+    },
+    {
+      "role": "news_reel_mp4.mp4",
+      "filename": "99b3f1a35183ef44ac66c1b039786eb7688ef2e89518ab05df8202ca5977051b.mp4",
+      "sha256": "99b3f1a35183ef44ac66c1b039786eb7688ef2e89518ab05df8202ca5977051b",
+      "url": "https://news.eximutc.com/assets/social/99b3f1a35183ef44ac66c1b039786eb7688ef2e89518ab05df8202ca5977051b.mp4"
+    },
+    {
+      "role": "s5_reel.mp4",
+      "filename": "93e5a22b569037e2a9d75c92053d7f55faadb681de078bc16b2f52308710d36b.mp4",
+      "sha256": "93e5a22b569037e2a9d75c92053d7f55faadb681de078bc16b2f52308710d36b",
+      "url": "https://news.eximutc.com/assets/social/93e5a22b569037e2a9d75c92053d7f55faadb681de078bc16b2f52308710d36b.mp4"
+    },
+    {
+      "role": "reviewed-portrait-20s.mp4",
+      "filename": "7614fc99dd255a0a6fb57bf3f3926c29ea30f9c6e95ab18b70c209266962fd31.mp4",
+      "sha256": "7614fc99dd255a0a6fb57bf3f3926c29ea30f9c6e95ab18b70c209266962fd31",
+      "url": "https://news.eximutc.com/assets/social/7614fc99dd255a0a6fb57bf3f3926c29ea30f9c6e95ab18b70c209266962fd31.mp4"
+    },
+    {
+      "role": "s1-photo.jpg",
+      "filename": "9128b1498ae3336b2eb9bd946576689f67d0a66e891122a7dc4341e777aff380.jpg",
+      "sha256": "9128b1498ae3336b2eb9bd946576689f67d0a66e891122a7dc4341e777aff380",
+      "url": "https://news.eximutc.com/assets/social/9128b1498ae3336b2eb9bd946576689f67d0a66e891122a7dc4341e777aff380.jpg"
+    },
+    {
+      "role": "s2-photo.jpg",
+      "filename": "351e79c8dc0be06eaa748e568bed9d0d5c9c663fb513571a3b454723b9fa74e3.jpg",
+      "sha256": "351e79c8dc0be06eaa748e568bed9d0d5c9c663fb513571a3b454723b9fa74e3",
+      "url": "https://news.eximutc.com/assets/social/351e79c8dc0be06eaa748e568bed9d0d5c9c663fb513571a3b454723b9fa74e3.jpg"
+    }
+  ]
+}
