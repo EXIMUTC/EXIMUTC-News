@@ -5,6 +5,20 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Accountability for AI required in gemstone reporting, CIBJO Congress hears - CIBJO",
+      "url": "https://cibjo.org/accountability-for-ai-required-in-gemstone-reporting-cibjo-congress-hears",
+      "source": "CIBJO",
+      "summary": "CIBJO’s Gemmological Commission has addressed the need to establish accountability for the use of artificial intelligence in gemstone reporting, its chair, Hanco Zwaan, told the CIBJO Congress.",
+      "why_eximutc": "",
+      "published": "",
+      "market_view": "The useful question for a buyer is what the announcement changes for the actual stone or jewel. Verify identity, condition, laboratory documentation and provenance separately. A company headline is context, not a substitute for examining the piece.",
+      "kind": "industry_news",
+      "source_url": "https://cibjo.org/accountability-for-ai-required-in-gemstone-reporting-cibjo-congress-hears",
+      "slug": "accountability-for-ai-required-in-gemstone-reporting-cibjo-congress-hears-cibjo-e1dc7db8",
+      "fingerprint": "e1dc7db8eec91bbda55f7e244bdb523e2b8e74144c11e6e8b361c081a4d193cf",
+      "published_at": "2026-11-03T20:41:46.366029+00:00"
+    },
+    {
       "title": "Solomon Brothers Acquires Mervis Diamond Importers",
       "url": "https://nationaljeweler.com/articles/15449-solomon-brothers-acquires-mervis-diamond-importers",
       "source": "National Jeweler",
@@ -1005,5 +1019,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "14e3ed484a8ed1c9c4cd51abcbc097c67d9bbfdc175d212eb7e5cc2a31af7fb3"
+  "exported_latest_fingerprint": "e1dc7db8eec91bbda55f7e244bdb523e2b8e74144c11e6e8b361c081a4d193cf"
 }
