@@ -5,6 +5,17 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Pamir Spinel: Colour and Treatment",
+      "summary": "GEMOLOGY FACT: Kuh-i-Lal in the Pamir mountains of Tajikistan is a source of pink spinel. Photoluminescence spectroscopy can help distinguish heated from unheated spinel.",
+      "market_view": "EXIMUTC view: Attractive colour and geographic origin do not replace a documented treatment assessment.",
+      "source": "www.ssef.ch",
+      "url": "https://www.ssef.ch/heated-spinel-from-tajikistan/",
+      "source_url": "https://www.ssef.ch/heated-spinel-from-tajikistan/",
+      "slug": "pamir-spinel-colour-and-treatment-daeae5f1",
+      "fingerprint": "daeae5f13530a26a324d31002c2f4ac69c8966ed1452c66af538c62a3965f333",
+      "published_at": "2026-11-13T15:23:32.746067+00:00"
+    },
+    {
       "title": "Jet: an ancient wood story in jewelry",
       "summary": "GEMOLOGY FACT: Jet is a gem material of ancient woody origin, preserving a connection between the remains of trees and jewelry.",
       "market_view": "EXIMUTC view: Material identity comes before a persuasive label. Ask for a documented material description before buying.",
@@ -1030,5 +1041,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "2c58f846e54279d18fd3150ccf7f4531363cf93b6492c4094b742d51292e0cf0"
+  "exported_latest_fingerprint": "daeae5f13530a26a324d31002c2f4ac69c8966ed1452c66af538c62a3965f333"
 }
