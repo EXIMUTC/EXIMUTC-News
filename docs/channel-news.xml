@@ -1,9 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>EXIMUTC reviewed industry news</title><link>https://news.eximutc.com/</link><description>Original EXIMUTC briefs with independently checked sources</description><item><title>Pamir Spinel: Colour and Treatment</title><link>https://www.ssef.ch/heated-spinel-from-tajikistan/</link><guid>https://www.ssef.ch/heated-spinel-from-tajikistan/</guid><category>gemology</category><pubDate>Fri, 13 Nov 2026 15:23:27 +0000</pubDate><description>GEMOLOGY FACT: Kuh-i-Lal in the Pamir mountains of Tajikistan is a source of pink spinel. Photoluminescence spectroscopy can help distinguish heated from unheated spinel.
-
-EXIMUTC view: Attractive colour and geographic origin do not replace a documented treatment assessment.
-
-Source: www.ssef.ch
-https://www.ssef.ch/heated-spinel-from-tajikistan/
-
-Photo: Greg Polley / Smithsonian NMNH, CC0</description><enclosure url="https://ids.si.edu/ids/deliveryService/id/ark:/65665/m301034891124f48bf9490e0be42d398a1" length="442958" type="image/jpeg" /><media:content url="https://ids.si.edu/ids/deliveryService/id/ark:/65665/m301034891124f48bf9490e0be42d398a1" type="image/jpeg" medium="image" width="2000" height="1698" fileSize="442958" /><media:credit>Greg Polley / Smithsonian NMNH, CC0</media:credit></item></channel></rss>
+<rss version="2.0"><channel><title>EXIMUTC reviewed industry news</title><link>https://news.eximutc.com/</link><description>Original EXIMUTC briefs with independently checked sources</description></channel></rss>
