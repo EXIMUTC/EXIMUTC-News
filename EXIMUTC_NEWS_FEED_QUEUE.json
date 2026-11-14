@@ -5,6 +5,17 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Alexandrite: Colour Changes with the Light",
+      "summary": "GEMOLOGY FACT: Alexandrite is a colour-change variety of chrysoberyl. It can appear bluish green in daylight and purplish red under incandescent light.",
+      "market_view": "EXIMUTC view: request views under both light sources before assessing a colour-change gem.",
+      "source": "www.gia.edu",
+      "url": "https://www.gia.edu/alexandrite",
+      "source_url": "https://www.gia.edu/alexandrite",
+      "slug": "alexandrite-colour-changes-with-the-light-63c6651c",
+      "fingerprint": "63c6651c53b4ff049234c6deaef25c9a96678279391272fa24aa777f114ad774",
+      "published_at": "2026-11-14T21:17:07.952095+00:00"
+    },
+    {
       "title": "Melo Pearls: Reading Flame Patterns",
       "summary": "GEMOLOGY FACT: Melo pearls can show flame-like surface patterns. These patterns may appear patchy or pointed.",
       "market_view": "EXIMUTC view: Surface beauty and identification answer different questions. Request laboratory documentation rather than judging natural origin from orange colour alone.",
@@ -1052,5 +1063,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "74c2a456a48e626776416a12447e5dc3f96ee419b93e0fdd6171ae588fc3d59c"
+  "exported_latest_fingerprint": "63c6651c53b4ff049234c6deaef25c9a96678279391272fa24aa777f114ad774"
 }
