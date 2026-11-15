@@ -1,9 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>EXIMUTC reviewed industry news</title><link>https://news.eximutc.com/</link><description>Original EXIMUTC briefs with independently checked sources</description><item><title>Alexandrite: Colour Changes with the Light</title><link>https://www.gia.edu/alexandrite</link><guid>https://www.gia.edu/alexandrite</guid><category>gemology</category><pubDate>Sat, 14 Nov 2026 21:17:03 +0000</pubDate><description>GEMOLOGY FACT: Alexandrite is a colour-change variety of chrysoberyl. It can appear bluish green in daylight and purplish red under incandescent light.
-
-EXIMUTC view: request views under both light sources before assessing a colour-change gem.
-
-Source: www.gia.edu
-https://www.gia.edu/alexandrite
-
-Photo: Lech Darski / Wikimedia Commons, CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/; unchanged. Source: https://commons.wikimedia.org/wiki/File:Aleksandryt_w_świetle_dziennym_-_Ural,_Rosja.jpg</description><enclosure url="https://raw.githubusercontent.com/EXIMUTC/EXIMUTC-News/d427b1ac47cd70df931163e8fac27901ed96a751/docs/assets/alexandrite-lech-darski-94deea5b.jpg" length="1444489" type="image/jpeg" /><media:content url="https://raw.githubusercontent.com/EXIMUTC/EXIMUTC-News/d427b1ac47cd70df931163e8fac27901ed96a751/docs/assets/alexandrite-lech-darski-94deea5b.jpg" type="image/jpeg" medium="image" width="5184" height="3456" fileSize="1444489" /><media:credit>Lech Darski / Wikimedia Commons, CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/; unchanged. Source: https://commons.wikimedia.org/wiki/File:Aleksandryt_w_świetle_dziennym_-_Ural,_Rosja.jpg</media:credit></item></channel></rss>
+<rss version="2.0"><channel><title>EXIMUTC reviewed industry news</title><link>https://news.eximutc.com/</link><description>Original EXIMUTC briefs with independently checked sources</description></channel></rss>
