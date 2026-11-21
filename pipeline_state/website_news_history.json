@@ -207,7 +207,21 @@
     "source_url": "https://www.gia.edu/gems-gemology/summer-2016-rainier-footsteps-journey-chivor-emerald-mine",
     "slug": "the-patricia-emerald-preserves-a-632-carat-crystal-d4ee764f",
     "fingerprint": "d4ee764fbec9be55cc1f83b9f15d3d6efa54987c21413fe24897cf376357f7c0",
-    "published_at": "2026-10-11T21:06:12.859788+00:00"
+    "published_at": "2026-10-11T21:06:12.859788+00:00",
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Patricia_Emerald_1.jpg/1920px-Patricia_Emerald_1.jpg",
+      "mime_type": "image/jpeg",
+      "length": 2720443,
+      "width": 1920,
+      "height": 2560,
+      "sha256": "fd7989acd4a657c0817159b081e09d1b0c2a2594c6b6d6f9fb34ae7e27ce27e3",
+      "credit": "Emerald display at AMNH including the Patricia Emerald. Vicpeters / Wikimedia Commons, CC BY 4.0 https://creativecommons.org/licenses/by/4.0/. Resized preview.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "approval_evidence_url": "https://commons.wikimedia.org/wiki/File:Patricia_Emerald_1.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Patricia_Emerald_1.jpg",
+      "illustrative_only": true
+    }
   },
   {
     "title": "Kenzoll and MSF plan restart of Namibia's Elizabeth Bay diamond mine",
