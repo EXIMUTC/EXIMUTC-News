@@ -13,7 +13,21 @@
       "source_url": "https://www.gia.edu/pearl-quality-factor",
       "slug": "luster-is-a-key-visual-quality-factor-in-pearls-9fadbbe5",
       "fingerprint": "9fadbbe59e134f631edb41f463b8743842c8d173f880e93ad826f0ce98534f9c",
-      "published_at": "2026-11-21T13:45:54.408551+00:00"
+      "published_at": "2026-11-21T13:45:54.408551+00:00",
+      "image": {
+        "url": "https://raw.githubusercontent.com/EXIMUTC/EXIMUTC-News/60e64689b3f8f42e981bc60f88c2fa9088909755/docs/assets/editorial/pearl-luster-s1.jpg",
+        "mime_type": "image/jpeg",
+        "length": 127976,
+        "width": 2732,
+        "height": 1440,
+        "sha256": "d476e4fd93aef43cb1041f2a9d86259acd237968cd54087201e122d07a0236ec",
+        "credit": "Illustrative pearl jewelry • cottonbro studio / Pexels",
+        "license": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "approval_evidence_url": "https://www.pexels.com/license/",
+        "source_page": "https://www.pexels.com/video/close-up-shot-of-pearl-jewelries-9428860/",
+        "illustrative_only": true
+      }
     },
     {
       "title": "Alexandrite: Colour Changes with the Light",
