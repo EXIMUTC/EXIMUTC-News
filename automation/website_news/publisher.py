@@ -42,8 +42,35 @@ def display_date(value):
         return dt.strftime('%B %-d, %Y at %-I:%M %p ET')
     except (ValueError, TypeError):
         return str(value)
-def news_image(relative):
-    return f'<figure><img src="{relative}" width="1200" height="630" alt="EXIMUTC editorial illustration of a blue-green faceted gemstone" style="width:100%;height:auto;border-radius:12px"><figcaption>EXIMUTC editorial illustration</figcaption></figure>'
+def article_photo(record):
+    image=record.get('image')
+    if not isinstance(image,dict):
+        return None
+    try:
+        url=urlparse(image['url'])
+        width,height=image['width'],image['height']
+        if (url.scheme!='https' or not url.hostname or url.username or url.password
+                or url.port not in (None,443)
+                or image.get('mime_type') not in {'image/jpeg','image/png'}
+                or not re.fullmatch(r'[a-f0-9]{64}',image['sha256'])
+                or type(width) is not int or type(height) is not int
+                or min(width,height)<480 or width+height>10000
+                or not image['credit'].strip() or not image['license'].strip()):
+            return None
+    except (AttributeError,KeyError,TypeError,ValueError):
+        return None
+    return image
+
+def news_image(image):
+    if image:
+        url,width,height=image['url'],image['width'],image['height']
+        alt=credit=image['credit']
+    else:
+        url,width,height='../assets/gemstone-news.svg',1200,630
+        alt='EXIMUTC editorial illustration of a blue-green faceted gemstone'
+        credit='EXIMUTC editorial illustration'
+    return (f'<figure><img src="{esc(url)}" width="{width}" height="{height}" alt="{esc(alt)}" '
+            f'style="width:100%;height:auto;border-radius:12px"><figcaption>{esc(credit)}</figcaption></figure>')
 def official_contact_links():
     # Canonical, visible and clickable directory matching EXIMUTC NEWS captions.
     items = [
@@ -65,7 +92,9 @@ def article_html(a):
     view=esc(a.get('market_view') or 'EXIMUTC follows verified developments in the natural gemstone and fine-jewelry market and separates sourced facts from market commentary.')
     src=esc(a['source_url']); source=esc(a.get('source') or urlparse(a['source_url']).netloc)
     canonical=f"{BASE_URL}/articles/{a['slug']}.html"
-    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title} | EXIMUTC News</title><meta name="description" content="{desc}"><link rel="canonical" href="{canonical}"><meta property="og:type" content="article"><meta property="og:url" content="{canonical}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{BASE_URL}/assets/gemstone-news.svg"><meta property="og:title" content="{title}"><meta property="og:description" content="{desc}"><meta property="og:image" content="{BASE_URL}/assets/gemstone-news.svg"><style>*{{box-sizing:border-box}}body{{font-family:Arial,sans-serif;margin:auto;max-width:900px;padding:28px;color:#151515;line-height:1.65}}header{{border-bottom:1px solid #ddd;margin-bottom:32px}}a{{color:#075985;overflow-wrap:anywhere}}h1,h2,p{{overflow-wrap:anywhere}}@media(max-width:480px){{body{{padding:20px 16px}}}}.view{{background:#f5f7f8;padding:20px;margin:30px 0}}small{{color:#666}}</style></head><body><header><h2>EXIMUTC NEWS</h2><p><a href="../">Natural Gemstones & Fine Jewelry Market Intelligence</a></p></header><main><h1>{title}</h1><time datetime="{esc(a['published_at'])}">{esc(display_date(a['published_at']))}</time>{news_image('../assets/gemstone-news.svg')}<p>{body}</p><section class="view"><h2>EXIMUTC Market View</h2><p>{view}</p></section><h2>Source</h2><p>{source}: <a href="{src}" rel="nofollow noopener">{src}</a></p></main><footer><hr>{official_contact_links()}<p>EXIMUTC, INC. · Florida, USA</p></footer></body></html>'''
+    image=article_photo(a)
+    preview=esc(image['url'] if image else BASE_URL+'/assets/gemstone-news.svg')
+    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title} | EXIMUTC News</title><meta name="description" content="{desc}"><link rel="canonical" href="{canonical}"><meta property="og:type" content="article"><meta property="og:url" content="{canonical}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{preview}"><meta property="og:title" content="{title}"><meta property="og:description" content="{desc}"><meta property="og:image" content="{preview}"><style>*{{box-sizing:border-box}}body{{font-family:Arial,sans-serif;margin:auto;max-width:900px;padding:28px;color:#151515;line-height:1.65}}header{{border-bottom:1px solid #ddd;margin-bottom:32px}}a{{color:#075985;overflow-wrap:anywhere}}h1,h2,p{{overflow-wrap:anywhere}}@media(max-width:480px){{body{{padding:20px 16px}}}}.view{{background:#f5f7f8;padding:20px;margin:30px 0}}small{{color:#666}}</style></head><body><header><h2>EXIMUTC NEWS</h2><p><a href="../">Natural Gemstones & Fine Jewelry Market Intelligence</a></p></header><main><h1>{title}</h1><time datetime="{esc(a['published_at'])}">{esc(display_date(a['published_at']))}</time>{news_image(image)}<p>{body}</p><section class="view"><h2>EXIMUTC Market View</h2><p>{view}</p></section><h2>Source</h2><p>{source}: <a href="{src}" rel="nofollow noopener">{src}</a></p></main><footer><hr>{official_contact_links()}<p>EXIMUTC, INC. · Florida, USA</p></footer></body></html>'''
 
 def build_index(history):
     cards=''.join(f'<article><h2><a href="articles/{esc(x["slug"])}.html">{esc(x["title"])}</a></h2><p>{esc(x.get("summary",""))}</p><time datetime="{esc(x["published_at"])}">{esc(display_date(x["published_at"]))}</time></article>' for x in reversed(history))
@@ -85,6 +114,14 @@ def main():
     OUT.mkdir(exist_ok=True); (OUT/'articles').mkdir(exist_ok=True); STATE.parent.mkdir(exist_ok=True)
     history=load_json(STATE,[]); queue=load_json(QUEUE,{})
     # Read existing editorial output without invoking or changing social routes.
+    items=queue if isinstance(queue,list) else queue.get('items') or []
+    for record in history:
+        # The same already published edition can gain its reviewed photograph
+        # without receiving a new publication date or changing its article text.
+        match=next((row for row in items if all(row.get(k)==record.get(k) for k in
+                    ('source_url','title','summary','market_view')) and article_photo(row)),None)
+        if match:
+            record['image']=match['image']
     item=pick_item(queue,history)
     if item:
         now=datetime.now(timezone.utc).isoformat(); slug=slugify(item['title'])+'-'+fingerprint(item)[:8]
