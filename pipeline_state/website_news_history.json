@@ -1217,5 +1217,34 @@
     "slug": "some-opals-are-vulnerable-to-heat-and-drying-ff5422fb",
     "fingerprint": "ff5422fb6c7a46e61fc961860216f5d47606e66c4837f9679cda9f92975bdf3b",
     "published_at": "2026-11-22T14:09:05.841009+00:00"
+  },
+  {
+    "title": "Iolite can show three colors when viewed from different directions",
+    "summary": "GEMOLOGY FACT: This directional color effect is called pleochroism.",
+    "market_view": "EXIMUTC view: Compare the face-up and side views before judging a finished stone.",
+    "source_url": "https://www.gia.edu/iolite",
+    "source": "www.gia.edu",
+    "image": {
+      "url": "https://ids.si.edu/ids/deliveryService?id=ark:/65665/m3af7bd84e221e42069c98a332501e1bb9&max=1600",
+      "mime_type": "image/jpeg",
+      "length": 69110,
+      "width": 1600,
+      "height": 1441,
+      "sha256": "d8ad71824c9e807202b176155ffddf1bb500e0ad9a856f47b07d54581176a901",
+      "credit": "Illustrative iolite (NMNH G11434) • Smithsonian National Museum of Natural History • CC0\nhttps://naturalhistory.si.edu/object/nmnhmineralsciences_10275596?geogallery=Cordierite+%28var.+iolite%29&node=14136\nhttps://creativecommons.org/publicdomain/zero/1.0/",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "approval_evidence_url": "https://naturalhistory.si.edu/object/nmnhmineralsciences_10275596?geogallery=Cordierite+%28var.+iolite%29&node=14136",
+      "source_page": "https://naturalhistory.si.edu/object/nmnhmineralsciences_10275596?geogallery=Cordierite+%28var.+iolite%29&node=14136",
+      "illustrative_only": true
+    },
+    "category": "gemology",
+    "prepared_at": "2026-11-22T14:21:20.347353+00:00",
+    "reviewer": "EXIMUTC editorial intake",
+    "reviewed_at": "2026-11-22T14:20:23.142787+00:00",
+    "source_identity": "dea1701d16279b5352ebe27ffe98353d703e8926adce03f8876686b9340c905e",
+    "slug": "iolite-can-show-three-colors-when-viewed-from-different-directions-e3817407",
+    "fingerprint": "e38174073cb004c80ae1ff74aa066276f435df82a2b8d8b19d7176ee7c8304d5",
+    "published_at": "2026-11-22T14:21:46.646958+00:00"
   }
 ]
