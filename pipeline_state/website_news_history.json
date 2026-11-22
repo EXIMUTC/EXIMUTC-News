@@ -431,7 +431,21 @@
     "source_url": "https://www.gia.edu/moonstone-description",
     "slug": "moonstone-glows-because-light-scatters-within-feldspar-34bdf5a5",
     "fingerprint": "34bdf5a5a67605ff78fd4bb5db87aa6b6e479bf0aa072f8a053282f3f2919e50",
-    "published_at": "2026-10-17T01:25:45.101376+00:00"
+    "published_at": "2026-10-17T01:25:45.101376+00:00",
+    "image": {
+      "url": "https://ids.si.edu/ids/deliveryService?id=ark:/65665/m349679ea231d2402d8fcec4257606e195&max=1600",
+      "mime_type": "image/jpeg",
+      "length": 43725,
+      "width": 1600,
+      "height": 1067,
+      "sha256": "984ca64c55ac7634e1dc3cf4082d1f8308b8a8b884231a52058f309734bc6fec",
+      "credit": "Illustrative albite moonstone (NMNH G11433) • Ken Larsen / Smithsonian National Museum of Natural History • CC0\nhttps://naturalhistory.si.edu/object/nmnhmineralsciences_10275595?geogallery=Moonstone&node=14137\nhttps://creativecommons.org/publicdomain/zero/1.0/",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "approval_evidence_url": "https://naturalhistory.si.edu/object/nmnhmineralsciences_10275595?geogallery=Moonstone&node=14137",
+      "source_page": "https://naturalhistory.si.edu/object/nmnhmineralsciences_10275595?geogallery=Moonstone&node=14137",
+      "illustrative_only": true
+    }
   },
   {
     "title": "Morganite honors collector J. P. Morgan",
