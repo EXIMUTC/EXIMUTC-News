@@ -5,6 +5,35 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Some opals are vulnerable to heat and drying",
+      "summary": "GEMOLOGY FACT: Excessive heating or drying can lead to cracks or crazing in some opals.",
+      "market_view": "EXIMUTC view: Choose care based on the type of opal and its individual stability.",
+      "source_url": "https://www.gia.edu/opal-care-cleaning",
+      "source": "Gemological Institute of America",
+      "image": {
+        "url": "https://ids.si.edu/ids/deliveryService?id=ark:/65665/m3971dbc0bfdfb4a3f88bd14d93e25fd4d&max=1600",
+        "mime_type": "image/jpeg",
+        "length": 91127,
+        "width": 1600,
+        "height": 1067,
+        "sha256": "7b611fb9cbe974faea71740153296a4f7dbdcb0e24a38616904949992e172cbe",
+        "credit": "Illustrative opal specimen • Smithsonian National Museum of Natural History • CC0\nhttps://naturalhistory.si.edu/object/nmnhmineralsciences_11149742\nhttps://creativecommons.org/publicdomain/zero/1.0/",
+        "license": "CC0-1.0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "approval_evidence_url": "https://naturalhistory.si.edu/object/nmnhmineralsciences_11149742",
+        "source_page": "https://naturalhistory.si.edu/object/nmnhmineralsciences_11149742",
+        "illustrative_only": true
+      },
+      "category": "gemology",
+      "prepared_at": "2026-11-22T14:08:29.775636+00:00",
+      "reviewer": "EXIMUTC evergreen editorial registry; live evidence rechecked",
+      "reviewed_at": "2026-11-22T14:08:29.775636+00:00",
+      "source_identity": "2b4532f2ee0d63638ed05ed9ade4ba6cb69ecd26161d7aedd95bdae9b65fabb1",
+      "slug": "some-opals-are-vulnerable-to-heat-and-drying-ff5422fb",
+      "fingerprint": "ff5422fb6c7a46e61fc961860216f5d47606e66c4837f9679cda9f92975bdf3b",
+      "published_at": "2026-11-22T14:08:29.775636+00:00"
+    },
+    {
       "title": "Topaz may display pleochroism",
       "summary": "GEMOLOGY FACT: Topaz can show different colors when viewed along different crystal directions.",
       "market_view": "EXIMUTC view: Inspect the stone face up and from several angles.",
@@ -1159,5 +1188,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "9c0a49fbae730a79110f6c6904d11377fc0e269231646fc30ff494f677a576fb"
+  "exported_latest_fingerprint": "ff5422fb6c7a46e61fc961860216f5d47606e66c4837f9679cda9f92975bdf3b"
 }
