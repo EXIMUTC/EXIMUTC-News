@@ -1159,5 +1159,34 @@
       "source_page": "https://www.pexels.com/video/close-up-shot-of-pearl-jewelries-9428860/",
       "illustrative_only": true
     }
+  },
+  {
+    "title": "Topaz may display pleochroism",
+    "summary": "GEMOLOGY FACT: Topaz can show different colors when viewed along different crystal directions.",
+    "market_view": "EXIMUTC view: Inspect the stone face up and from several angles.",
+    "source_url": "https://www.gia.edu/topaz-description",
+    "source": "Gemological Institute of America",
+    "image": {
+      "url": "https://ids.si.edu/ids/deliveryService?id=ark:/65665/m33c72fc2878d94e88ad06ff962eeb34ad&max=1600",
+      "mime_type": "image/jpeg",
+      "length": 99705,
+      "width": 1600,
+      "height": 1067,
+      "sha256": "0f2f5120cb549ba8bc36faf9e0032044a7447212f5b453a545032f42a043a9ba",
+      "credit": "Illustrative topaz specimen • Smithsonian National Museum of Natural History • CC0\nhttps://naturalhistory.si.edu/object/nmnhmineralsciences_10209891\nhttps://creativecommons.org/publicdomain/zero/1.0/",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "approval_evidence_url": "https://naturalhistory.si.edu/object/nmnhmineralsciences_10209891",
+      "source_page": "https://naturalhistory.si.edu/object/nmnhmineralsciences_10209891",
+      "illustrative_only": true
+    },
+    "category": "gemology",
+    "prepared_at": "2026-11-22T13:59:09.651554+00:00",
+    "reviewer": "EXIMUTC evergreen editorial registry; live evidence rechecked",
+    "reviewed_at": "2026-11-22T13:59:09.651554+00:00",
+    "source_identity": "849f1d27af6315e43f1955a279a41bc827304012ecae6c94ddc41347dd0fd793",
+    "slug": "topaz-may-display-pleochroism-9c0a49fb",
+    "fingerprint": "9c0a49fbae730a79110f6c6904d11377fc0e269231646fc30ff494f677a576fb",
+    "published_at": "2026-11-22T13:59:37.774146+00:00"
   }
 ]
