@@ -183,7 +183,21 @@
       "source_url": "https://www.gia.edu/pearl",
       "slug": "pearl-nacre-contains-plate-like-aragonite-crystals-fa04f524",
       "fingerprint": "fa04f5244499ee66ed1c4e7fa943ba105a5d7fea024d594a823bd5c64a681b49",
-      "published_at": "2026-10-28T02:37:50.147171+00:00"
+      "published_at": "2026-10-28T02:37:50.147171+00:00",
+      "image": {
+        "url": "https://news.eximutc.com/assets/editorial/pearl-luster-s2.jpg",
+        "mime_type": "image/jpeg",
+        "length": 157051,
+        "width": 2732,
+        "height": 1440,
+        "sha256": "9661f7f6b6c38ea22b23e5c86c225d08610c9b629453fb2b4cbd5b7499e1b884",
+        "credit": "Illustrative pearl jewelry • cottonbro studio / Pexels",
+        "license": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "approval_evidence_url": "https://www.pexels.com/license/",
+        "source_page": "https://www.pexels.com/video/close-up-shot-of-pearl-jewelries-9428860/",
+        "illustrative_only": true
+      }
     },
     {
       "title": "Pearls need gentle care around chemicals",
