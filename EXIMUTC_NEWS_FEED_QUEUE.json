@@ -5,13 +5,42 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Natural spinel exists in several vivid colors",
+      "summary": "GEMOLOGY FACT: Spinel is a distinct gem mineral and occurs in reds, pinks, purples, blues and other colors.",
+      "market_view": "EXIMUTC view: Confirm natural origin and treatment with evidence before comparing vivid spinels.",
+      "source_url": "https://www.gia.edu/spinel-description",
+      "source": "Gemological Institute of America",
+      "image": {
+        "url": "https://ids.si.edu/ids/deliveryService?id=ark:/65665/m3f85fcfdff6a345b39275ffeabd829789",
+        "mime_type": "image/jpeg",
+        "length": 538410,
+        "width": 4000,
+        "height": 2528,
+        "sha256": "1b0ba0b44de327b51d03c168c21d85710e9bea363adcca27b61492798a1834c0",
+        "credit": "Spinel suite (NMNH G11463) • Greg Polley / Smithsonian National Museum of Natural History • CC0\nhttps://naturalhistory.si.edu/object/nmnhmineralsciences_11722358?geogallery=Spinels&node=14553\nhttps://creativecommons.org/publicdomain/zero/1.0/",
+        "license": "CC0-1.0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "approval_evidence_url": "https://naturalhistory.si.edu/object/nmnhmineralsciences_11722358?geogallery=Spinels&node=14553",
+        "source_page": "https://naturalhistory.si.edu/object/nmnhmineralsciences_11722358?geogallery=Spinels&node=14553",
+        "illustrative_only": true
+      },
+      "category": "gemology",
+      "prepared_at": "2026-11-23T22:05:56.692913+00:00",
+      "reviewer": "EXIMUTC evergreen editorial registry; live evidence rechecked",
+      "reviewed_at": "2026-11-23T22:05:56.692913+00:00",
+      "source_identity": "2f7a10fbcfd8a4d43958d767d7087a24f9bef714726ec379c32141b95cc98730",
+      "slug": "natural-spinel-exists-in-several-vivid-colors-5fd97c4c",
+      "fingerprint": "5fd97c4cdcab3f949fe9a2d29e7932326064309f35476577882a6d9e28f6e40a",
+      "published_at": "2026-11-23T22:05:56.692913+00:00"
+    },
+    {
       "title": "Rose quartz is a pink quartz gemstone",
       "summary": "GEMOLOGY FACT: Rose quartz ranges from very pale pink to deeper pink. Microscopic mineral fibers give it both its color and its familiar cloudy translucence. It is commonly fashioned into beads, cabochons and carvings. In some correctly oriented cabochons, inclusions produce a six-rayed star.",
       "market_view": "EXIMUTC view: Judge the pink color together with translucency and the quality of the cut. Cloudiness can be characteristic of this material; transparency alone is not a complete quality test. For a star rose quartz, look for an evenly colored body and a clearly defined star. Compare the actual stones under the same lighting, and assess how the shape will work in the intended jewel.",
       "source_url": "https://www.gia.edu/rose-quartz-description",
       "source": "Gemological Institute of America",
       "image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Rose_quartz_specimen.jpg",
+        "url": "https://raw.githubusercontent.com/EXIMUTC/EXIMUTC-News/de2601ec1f59b2b3a172b0bfe689840072f52fff/docs/assets/editorial/rose-quartz-4b80f27b.jpg",
         "mime_type": "image/jpeg",
         "length": 109095,
         "width": 800,
@@ -1285,5 +1314,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "2f9706416da3fee26e7d59012f084d6e7da73849562f012e62490fb71e1537d9"
+  "exported_latest_fingerprint": "5fd97c4cdcab3f949fe9a2d29e7932326064309f35476577882a6d9e28f6e40a"
 }
