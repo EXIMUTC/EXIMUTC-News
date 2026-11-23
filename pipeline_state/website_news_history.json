@@ -1260,5 +1260,30 @@
     "slug": "iolite-can-show-three-colors-when-viewed-from-different-directions-e3817407",
     "fingerprint": "e38174073cb004c80ae1ff74aa066276f435df82a2b8d8b19d7176ee7c8304d5",
     "published_at": "2026-11-22T14:21:46.646958+00:00"
+  },
+  {
+    "source_url": "https://www.gia.edu/gems-gemology/fall-2021-glass-imitation-star-sapphire",
+    "title": "Asterism creates a star pattern on cabochon-cut gems",
+    "summary": "GEMOLOGY FACT: Asterism is a star-shaped concentration of reflected or refracted light from inclusions in a cabochon-cut gem.",
+    "market_view": "EXIMUTC view: Examine the star while moving the gem and the light; a still photograph alone should not decide identity, treatment, or quality.",
+    "source": "Gemological Institute of America",
+    "image": {
+      "url": "https://ids.si.edu/ids/deliveryService?id=ark:/65665/m30b6041604d9a46e9a16ea06342524424",
+      "mime_type": "image/jpeg",
+      "length": 418271,
+      "width": 2666,
+      "height": 3999,
+      "sha256": "adc9fac9eb82da7d0c903340f52413754cfe673a509ae842dab729b48b38fbab",
+      "credit": "Star sapphire (NMNH G9219) • Chip Clark / Smithsonian National Museum of Natural History • CC0\nhttps://naturalhistory.si.edu/explore/collections/geogallery/10002721\nhttps://creativecommons.org/publicdomain/zero/1.0/",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "approval_evidence_url": "https://naturalhistory.si.edu/object/nmnhmineralsciences_1006567?geogallery=Corundum+(var.+star+sapphire)&node=13987",
+      "source_page": "https://naturalhistory.si.edu/explore/collections/geogallery/10002721",
+      "illustrative_only": true
+    },
+    "kind": "evergreen_gem_fact",
+    "slug": "asterism-creates-a-star-pattern-on-cabochon-cut-gems-99eee4ba",
+    "fingerprint": "99eee4baef6e15d5051ec6cc01491370c9d551326c701be012cda2716da29323",
+    "published_at": "2026-11-23T20:28:18.179500+00:00"
   }
 ]
