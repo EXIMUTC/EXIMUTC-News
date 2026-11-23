@@ -417,7 +417,21 @@
     "source_url": "https://www.gia.edu/spinel",
     "slug": "some-royal-rubies-turned-out-to-be-spinel-ab7999b3",
     "fingerprint": "ab7999b32c3d0ed6f71aa36497687e4bf264bbf75dee74580a9c5a581b08b50e",
-    "published_at": "2026-10-16T20:01:40.152826+00:00"
+    "published_at": "2026-10-16T20:01:40.152826+00:00",
+    "image": {
+      "url": "https://ids.si.edu/ids/deliveryService?id=ark:/65665/m3df3512c963304b3ba29865303f539387&max=1600",
+      "mime_type": "image/jpeg",
+      "length": 95140,
+      "width": 1600,
+      "height": 1066,
+      "sha256": "1834e88be1e11c1b53de65b85a493901f33924d0dccb1490279e2747a4a559f3",
+      "credit": "Illustrative spinel specimen • Smithsonian National Museum of Natural History • CC0\nhttps://naturalhistory.si.edu/object/nmnhmineralsciences_10209880\nhttps://creativecommons.org/publicdomain/zero/1.0/",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "approval_evidence_url": "https://naturalhistory.si.edu/object/nmnhmineralsciences_10209880",
+      "source_page": "https://naturalhistory.si.edu/object/nmnhmineralsciences_10209880",
+      "illustrative_only": true
+    }
   },
   {
     "title": "Moonstone glows because light scatters within feldspar",
