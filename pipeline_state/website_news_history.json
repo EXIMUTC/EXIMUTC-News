@@ -1285,5 +1285,34 @@
     "slug": "asterism-creates-a-star-pattern-on-cabochon-cut-gems-99eee4ba",
     "fingerprint": "99eee4baef6e15d5051ec6cc01491370c9d551326c701be012cda2716da29323",
     "published_at": "2026-11-23T20:28:18.179500+00:00"
+  },
+  {
+    "title": "Rose quartz is a pink quartz gemstone",
+    "summary": "GEMOLOGY FACT: Rose quartz ranges from very pale pink to deeper pink. Microscopic mineral fibers give it both its color and its familiar cloudy translucence. It is commonly fashioned into beads, cabochons and carvings. In some correctly oriented cabochons, inclusions produce a six-rayed star.",
+    "market_view": "EXIMUTC view: Judge the pink color together with translucency and the quality of the cut. Cloudiness can be characteristic of this material; transparency alone is not a complete quality test. For a star rose quartz, look for an evenly colored body and a clearly defined star. Compare the actual stones under the same lighting, and assess how the shape will work in the intended jewel.",
+    "source_url": "https://www.gia.edu/rose-quartz-description",
+    "source": "Gemological Institute of America",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Rose_quartz_specimen.jpg",
+      "mime_type": "image/jpeg",
+      "length": 109095,
+      "width": 800,
+      "height": 732,
+      "sha256": "4b80f27bad4b5d62d7e58d3116f666b3042a3839f7dea596aead1fa3eee36f22",
+      "credit": "Rose quartz specimen (illustrative) • Anders Sandberg • CC BY 2.0 • original, unmodified\nhttps://commons.wikimedia.org/wiki/File:Rose_quartz_specimen.jpg\nhttps://creativecommons.org/licenses/by/2.0/",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "approval_evidence_url": "https://commons.wikimedia.org/wiki/File:Rose_quartz_specimen.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rose_quartz_specimen.jpg",
+      "illustrative_only": true
+    },
+    "category": "gemology",
+    "prepared_at": "2026-11-23T21:46:43.345441+00:00",
+    "reviewer": "EXIMUTC evergreen editorial registry; live evidence rechecked",
+    "reviewed_at": "2026-11-23T21:46:43.345441+00:00",
+    "source_identity": "17bbb6175b14ca142873863a85e1f65e6a725c70644bc0addf21e28686d31b30",
+    "slug": "rose-quartz-is-a-pink-quartz-gemstone-2f970641",
+    "fingerprint": "2f9706416da3fee26e7d59012f084d6e7da73849562f012e62490fb71e1537d9",
+    "published_at": "2026-11-23T21:47:43.846975+00:00"
   }
 ]
