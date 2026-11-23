@@ -5,6 +5,35 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Natural radiation can give quartz a smoky color",
+      "summary": "GEMOLOGY FACT: Natural irradiation can darken quartz containing trace aluminum, producing the tint of smoky quartz.",
+      "market_view": "EXIMUTC view: Judge the color in consistent lighting and ask for treatment disclosure when it matters.",
+      "source_url": "https://digital.sciencehistory.org/works/lrrbsbm",
+      "source": "digital.sciencehistory.org",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Smoky_quartz_%28GeoDIL_number_-_2518%29.jpg",
+        "mime_type": "image/jpeg",
+        "length": 388493,
+        "width": 1924,
+        "height": 1304,
+        "sha256": "024b78cdfd016bff41008e0d7b185540b1eaa3a96fb5506d5570d0cf9d93ef49",
+        "credit": "Smoky quartz (GeoDIL 2518) • Darla Sondrol / GeoDIL • CC0\nhttps://commons.wikimedia.org/wiki/File:Smoky_quartz_(GeoDIL_number_-_2518).jpg\nhttps://creativecommons.org/publicdomain/zero/1.0/",
+        "license": "CC0-1.0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "approval_evidence_url": "https://commons.wikimedia.org/wiki/File:Smoky_quartz_(GeoDIL_number_-_2518).jpg",
+        "source_page": "https://geodil.dperkins.org/h/2518.html",
+        "illustrative_only": true
+      },
+      "category": "gemology",
+      "prepared_at": "2026-11-23T23:22:50.631046+00:00",
+      "reviewer": "EXIMUTC editorial intake",
+      "reviewed_at": "2026-11-23T20:21:29+00:00",
+      "source_identity": "2f53848f5d013dceb035a5f2801d53c7a0dc2bb0d974a10ea634f469ce9c0ed9",
+      "slug": "natural-radiation-can-give-quartz-a-smoky-color-52f42928",
+      "fingerprint": "52f42928ae895760f48cce11b509d8147e56f53bea74531c566bafe202286b68",
+      "published_at": "2026-11-23T23:22:50.631046+00:00"
+    },
+    {
       "title": "Color zoning affects the appearance of amethyst",
       "summary": "GEMOLOGY FACT: The purple color in amethyst may be distributed unevenly, influencing the appearance of the cut gem.",
       "market_view": "EXIMUTC view: Inspect face-up color zoning rather than judging only by weight.",
@@ -1372,5 +1401,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "317c91fd5ada50884758b1570469794eeec90229945aab97b1928d1d5e53f13a"
+  "exported_latest_fingerprint": "52f42928ae895760f48cce11b509d8147e56f53bea74531c566bafe202286b68"
 }
