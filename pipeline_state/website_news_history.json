@@ -1343,5 +1343,34 @@
     "slug": "natural-spinel-exists-in-several-vivid-colors-5fd97c4c",
     "fingerprint": "5fd97c4cdcab3f949fe9a2d29e7932326064309f35476577882a6d9e28f6e40a",
     "published_at": "2026-11-23T22:06:55.049837+00:00"
+  },
+  {
+    "title": "Tourmaline is a multi-color gemstone family",
+    "summary": "GEMOLOGY FACT: Tourmaline can contain several colors within one crystal. Color zones may run along its length or form concentric layers. A pink center surrounded by green is the familiar watermelon pattern. Cutters can preserve these contrasts in a faceted gem or a polished slice, so the direction of cutting helps determine how the zoning appears in the finished piece.",
+    "market_view": "EXIMUTC view: Examine the boundaries and balance of the color zones in the actual stone. Consider whether the chosen cut presents the pattern clearly and whether dark areas obscure it. Compare transparency and workmanship alongside the colors, rather than treating a variety name as a quality grade. For a custom jewel, decide how the pattern should face the viewer before fixing the stone's orientation.",
+    "source_url": "https://www.gia.edu/tourmaline-quality-factor",
+    "source": "Gemological Institute of America",
+    "image": {
+      "url": "https://ids.si.edu/ids/deliveryService?id=ark:/65665/m3d4df1057acae4586aecc417c4b2d5817",
+      "mime_type": "image/jpeg",
+      "length": 492003,
+      "width": 3999,
+      "height": 2666,
+      "sha256": "6b8bdf351d71ee6bc0dfc029e3e35e9d62f78cc7ced78afa797419b255164e74",
+      "credit": "Elbaite candelabra (NMNH 132377) • Chip Clark / Smithsonian National Museum of Natural History • CC0\nhttps://naturalhistory.si.edu/object/nmnhmineralsciences_1069781?geogallery=Elbaite+candelabra&node=14589\nhttps://creativecommons.org/publicdomain/zero/1.0/",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "approval_evidence_url": "https://naturalhistory.si.edu/object/nmnhmineralsciences_1069781?geogallery=Elbaite+candelabra&node=14589",
+      "source_page": "https://naturalhistory.si.edu/object/nmnhmineralsciences_1069781?geogallery=Elbaite+candelabra&node=14589",
+      "illustrative_only": true
+    },
+    "category": "gemology",
+    "prepared_at": "2026-11-23T22:11:49.914315+00:00",
+    "reviewer": "EXIMUTC evergreen editorial registry; live evidence rechecked",
+    "reviewed_at": "2026-11-23T22:11:49.914315+00:00",
+    "source_identity": "15362bf337c6451e3005afe5824d06c5f31f170ed8a41bcca73fb53becc1dc80",
+    "slug": "tourmaline-is-a-multi-color-gemstone-family-9511a38c",
+    "fingerprint": "9511a38c19a9d5183f6cf878ba04715caf80cf7a0e632f3029093036c9595bbc",
+    "published_at": "2026-11-23T22:12:07.846308+00:00"
   }
 ]
