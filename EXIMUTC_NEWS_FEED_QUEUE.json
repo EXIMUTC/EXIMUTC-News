@@ -5,6 +5,35 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Color zoning affects the appearance of amethyst",
+      "summary": "GEMOLOGY FACT: The purple color in amethyst may be distributed unevenly, influencing the appearance of the cut gem.",
+      "market_view": "EXIMUTC view: Inspect face-up color zoning rather than judging only by weight.",
+      "source_url": "https://www.gia.edu/amethyst-quality-factor",
+      "source": "Gemological Institute of America",
+      "image": {
+        "url": "https://ids.si.edu/ids/deliveryService?id=ark:/65665/m3ab8df037bc6242e3bd7f9a40a7a81418",
+        "mime_type": "image/jpeg",
+        "length": 475006,
+        "width": 3999,
+        "height": 2666,
+        "sha256": "a4e9de823e61ead4f1e3c4876d2d79ae32181dfa9c27a68381839edade6211f3",
+        "credit": "Banded amethyst/clear quartz (NMNH G8143) • Chip Clark / Smithsonian National Museum of Natural History • CC0\nhttps://naturalhistory.si.edu/object/nmnhmineralsciences_1007677\nhttps://creativecommons.org/publicdomain/zero/1.0/",
+        "license": "CC0-1.0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "approval_evidence_url": "https://naturalhistory.si.edu/object/nmnhmineralsciences_1007677",
+        "source_page": "https://naturalhistory.si.edu/object/nmnhmineralsciences_1007677",
+        "illustrative_only": true
+      },
+      "category": "gemology",
+      "prepared_at": "2026-11-23T22:54:00.655305+00:00",
+      "reviewer": "EXIMUTC evergreen editorial registry; live evidence rechecked",
+      "reviewed_at": "2026-11-23T22:54:00.655305+00:00",
+      "source_identity": "3b62313886a0193f171d17707906e87953b9d3dd3a2b253f10e70081ae41cd3c",
+      "slug": "color-zoning-affects-the-appearance-of-amethyst-317c91fd",
+      "fingerprint": "317c91fd5ada50884758b1570469794eeec90229945aab97b1928d1d5e53f13a",
+      "published_at": "2026-11-23T22:54:00.655305+00:00"
+    },
+    {
       "title": "Tourmaline is a multi-color gemstone family",
       "summary": "GEMOLOGY FACT: Tourmaline can contain several colors within one crystal. Color zones may run along its length or form concentric layers. A pink center surrounded by green is the familiar watermelon pattern. Cutters can preserve these contrasts in a faceted gem or a polished slice, so the direction of cutting helps determine how the zoning appears in the finished piece.",
       "market_view": "EXIMUTC view: Examine the boundaries and balance of the color zones in the actual stone. Consider whether the chosen cut presents the pattern clearly and whether dark areas obscure it. Compare transparency and workmanship alongside the colors, rather than treating a variety name as a quality grade. For a custom jewel, decide how the pattern should face the viewer before fixing the stone's orientation.",
@@ -1343,5 +1372,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "9511a38c19a9d5183f6cf878ba04715caf80cf7a0e632f3029093036c9595bbc"
+  "exported_latest_fingerprint": "317c91fd5ada50884758b1570469794eeec90229945aab97b1928d1d5e53f13a"
 }
