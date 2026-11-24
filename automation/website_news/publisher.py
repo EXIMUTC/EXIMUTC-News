@@ -102,13 +102,24 @@ def build_index(history):
 
 def build_embed(history, limit=3):
     latest=list(reversed(history[-limit:]))
+    lead_photo=article_photo(latest[0]) if latest else None
+    lead_image=''
+    lead_credit=''
+    if lead_photo:
+        alt=lead_photo.get('alt') or lead_photo['credit'].split(' • ', 1)[0]
+        lead_image=(f'<img class="lead-photo" src="{esc(lead_photo["url"])}" '
+                    f'alt="{esc(alt)}" width="{lead_photo["width"]}" height="{lead_photo["height"]}">')
+        lead_credit=f'<small class="photo-credit">{esc(lead_photo["credit"].splitlines()[0])}</small>'
     cards=''.join(
-        f'<article><time datetime="{esc(x["published_at"])}">{esc(display_date(x["published_at"]))}</time>'
+        f'<article>{lead_image if offset == 0 else ""}'
+        f'<time datetime="{esc(x["published_at"])}">{esc(display_date(x["published_at"]))}</time>'
         f'<h3><a href="{BASE_URL}/articles/{esc(x["slug"])}.html" target="_top">{esc(x["title"])}</a></h3>'
-        f'<p>{esc(str(x.get("summary",""))[:220])}</p></article>'
-        for x in latest
+        f'<p>{esc(str(x.get("summary",""))[:220])}</p>'
+        f'{lead_credit if offset == 0 else ""}'
+        '</article>'
+        for offset, x in enumerate(latest)
     )
-    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Latest EXIMUTC News</title><style>*{{box-sizing:border-box}}html,body{{margin:0;padding:0;background:transparent}}body{{font-family:Arial,sans-serif;color:#111}}.wrap{{max-width:1100px;margin:0 auto;padding:8px 4px 12px}}h2{{font-size:clamp(26px,4vw,42px);font-weight:600;letter-spacing:.01em;margin:0 0 18px}}article{{padding:18px 0;border-top:1px solid rgba(0,0,0,.14)}}article:first-of-type{{border-top:0;padding-top:0}}time{{display:block;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#5f6570;margin-bottom:6px}}h3{{font-size:clamp(18px,2.4vw,26px);line-height:1.2;margin:0 0 7px}}p{{font-size:15px;line-height:1.5;margin:0;color:#333}}a{{color:#0b245c;text-decoration:none}}a:hover,a:focus{{text-decoration:underline}}.all{{display:inline-block;margin-top:18px;font-weight:600}}@media(max-width:480px){{.wrap{{padding:4px 2px 10px}}article{{padding:15px 0}}}}</style></head><body><section class="wrap" aria-labelledby="latest-news-title"><h2 id="latest-news-title">Latest News</h2>{cards or '<p>Editorial feed is being prepared.</p>'}<a class="all" href="{BASE_URL}/" target="_top">View all EXIMUTC News →</a></section></body></html>'''
+    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Latest EXIMUTC News</title><style>*{{box-sizing:border-box}}html,body{{margin:0;padding:0;background:transparent}}body{{font-family:Arial,sans-serif;color:#111}}.wrap{{max-width:1100px;margin:0 auto;padding:8px 4px 12px}}h2{{font-size:clamp(26px,4vw,42px);font-weight:600;letter-spacing:.01em;margin:0 0 18px}}article{{padding:18px 0;border-top:1px solid rgba(0,0,0,.14);display:flow-root}}article:first-of-type{{border-top:0;padding-top:0}}.lead-photo{{display:block;float:right;width:min(35%,200px);height:auto;margin:0 0 8px 14px;border-radius:6px}}.photo-credit{{display:block;margin-top:6px;color:#5f6570;font-size:11px}}time{{display:block;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#5f6570;margin-bottom:6px}}h3{{font-size:clamp(18px,2.4vw,26px);line-height:1.2;margin:0 0 7px}}p{{font-size:15px;line-height:1.5;margin:0;color:#333}}a{{color:#0b245c;text-decoration:none}}a:hover,a:focus{{text-decoration:underline}}.all{{display:inline-block;margin-top:18px;font-weight:600}}@media(max-width:480px){{.wrap{{padding:4px 2px 10px}}article{{padding:15px 0}}}}</style></head><body><section class="wrap" aria-labelledby="latest-news-title"><h2 id="latest-news-title">Latest News</h2>{cards or '<p>Editorial feed is being prepared.</p>'}<a class="all" href="{BASE_URL}/" target="_top">View all EXIMUTC News →</a></section></body></html>'''
 
 def main():
     OUT.mkdir(exist_ok=True); (OUT/'articles').mkdir(exist_ok=True); STATE.parent.mkdir(exist_ok=True)
