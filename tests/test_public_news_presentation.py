@@ -1,7 +1,10 @@
 import hashlib
+import json
+import tempfile
 import unittest
 from datetime import datetime, timezone
 from html.parser import HTMLParser
+from pathlib import Path
 from unittest.mock import patch
 
 from automation.website_news import publisher, verify_production
@@ -105,6 +108,31 @@ class PublicNewsPresentationTests(unittest.TestCase):
             queue, [{'fingerprint': approved_fingerprint}], approved_export_only=True))
         queue['exported_latest_fingerprint'] = 'a' * 64
         self.assertIsNone(publisher.pick_item(queue, [], approved_export_only=True))
+
+    def test_delayed_exact_export_preserves_newer_story_at_top(self):
+        delayed, latest = article(1), article(2)
+        delayed['published_at'] = '2026-11-24T01:30:00-05:00'
+        latest['published_at'] = '2026-11-24T12:30:00+00:00'
+        latest['fingerprint'] = publisher.fingerprint(latest)
+        queue = {
+            'status': 'APPROVED_FOR_PUBLISHING',
+            'exported_latest_fingerprint': publisher.fingerprint(delayed),
+            'items': [delayed],
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            output, state, queue_path = root / 'docs', root / 'history.json', root / 'queue.json'
+            state.write_text(json.dumps([latest]))
+            queue_path.write_text(json.dumps(queue))
+            with patch.multiple(publisher, OUT=output, STATE=state, QUEUE=queue_path):
+                publisher.main(approved_export_only=True)
+            history = json.loads(state.read_text())
+            self.assertEqual([x['title'] for x in history], [delayed['title'], latest['title']])
+            self.assertEqual(history[0]['published_at'], delayed['published_at'])
+            self.assertTrue((output / 'articles' / (history[0]['slug'] + '.html')).exists())
+            for page in ('index.html', 'embed.html'):
+                links = Metadata((output / page).read_text()).links
+                self.assertTrue(next(x for x in links if 'articles/' in x).endswith(latest['slug'] + '.html'))
 
 
 def reviewed_photo(name):
