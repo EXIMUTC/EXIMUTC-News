@@ -1488,5 +1488,34 @@
     "slug": "aligned-inclusions-can-create-a-cat-s-eye-effect-in-gems-55c8a10f",
     "fingerprint": "55c8a10fef3e12cec5c77735fc0a8e3345c221f08a18a10610cbc4cd87599632",
     "published_at": "2026-11-24T01:04:50.396838+00:00"
+  },
+  {
+    "title": "Hydrophane opal can absorb water",
+    "summary": "GEMOLOGY FACT: Some Ethiopian opal is hydrophane. Its porous structure allows it to absorb water.",
+    "market_view": "EXIMUTC view: Ask for care instructions specific to the opal before choosing a piece of jewelry.",
+    "source_url": "https://www.gia.edu/gems-gemology/fa13-ln-technique-hydrophane-opal",
+    "source": "www.gia.edu",
+    "image": {
+      "url": "https://live.staticflickr.com/509/32332077070_bf91a35444_o.jpg",
+      "mime_type": "image/jpeg",
+      "length": 1576441,
+      "width": 1393,
+      "height": 1644,
+      "sha256": "1f123425d2a8854d25614018509179ca604e57f452bab4fc6eaa273bc2123ed9",
+      "credit": "Ethiopian hydrophane opal immersed in water • James St. John / Flickr • CC BY 2.0 (original image)\nhttps://www.flickr.com/photos/47445767@N05/32332077070\nhttps://creativecommons.org/licenses/by/2.0/",
+      "license": "CC-BY-2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "approval_evidence_url": "https://commons.wikimedia.org/wiki/File:Hydrophane_opal_(precious_opal)_immersed_in_water_(Tertiary;_Ethiopia)_6_(32332077070).jpg#Licensing",
+      "source_page": "https://www.flickr.com/photos/47445767@N05/32332077070",
+      "illustrative_only": true
+    },
+    "category": "gemology",
+    "prepared_at": "2026-11-24T02:24:14.705612+00:00",
+    "reviewer": "EXIMUTC editorial intake",
+    "reviewed_at": "2026-11-24T01:01:07Z",
+    "source_identity": "8dcc8f7f2d3d41e40d61f84b586c767f377e816436f5cf3f7ef389f41e6e3f5a",
+    "slug": "hydrophane-opal-can-absorb-water-d34a916b",
+    "fingerprint": "d34a916bc5f6a4eccd05ec436017a68ea9cfbd6271cab0710b0594eed93d4f48",
+    "published_at": "2026-11-24T02:24:25.147287+00:00"
   }
 ]
