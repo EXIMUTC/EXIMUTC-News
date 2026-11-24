@@ -24,8 +24,8 @@ jobs:
           python-version: '3.11'
       - name: Verify public News presentation regressions
         run: python -m unittest discover -s tests -v
-      - name: Build published news
-        run: python automation/website_news/publisher.py
+      - name: Rebuild existing news pages
+        run: python automation/website_news/publisher.py --rebuild-only
       - name: Validate public files
         run: |
           test -s docs/index.html
