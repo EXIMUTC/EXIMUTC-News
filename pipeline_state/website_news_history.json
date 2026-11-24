@@ -1517,5 +1517,35 @@
     "slug": "hydrophane-opal-can-absorb-water-d34a916b",
     "fingerprint": "d34a916bc5f6a4eccd05ec436017a68ea9cfbd6271cab0710b0594eed93d4f48",
     "published_at": "2026-11-24T02:24:25.147287+00:00"
+  },
+  {
+    "title": "Hard topaz can still split along cleavage planes",
+    "summary": "GEMOLOGY FACT: Topaz has a Mohs hardness of 8, but hardness measures resistance to scratching rather than resistance to breaking. Its basal cleavage allows it to split along a particular direction if struck. Pressure and sudden temperature changes can also cause damage. This is why a hard gemstone can still need careful handling during cutting, setting, cleaning and everyday wear.",
+    "market_view": "EXIMUTC view: Choose a protective setting for a topaz ring and tell the jeweler the gem's identity before repair or cleaning. Avoid hard knocks and sudden temperature changes. GIA recommends warm, soapy water instead of steam or ultrasonic cleaning. Consider how the piece will be worn; the hardness number alone should not be treated as a promise of resistance to impact.",
+    "source_url": "https://www.gia.edu/topaz-care-cleaning",
+    "source": "Gemological Institute of America",
+    "image": {
+      "url": "https://mdpi-res.com/crystals/crystals-12-01746/article_deploy/html/images/crystals-12-01746-g002.png",
+      "mime_type": "image/png",
+      "length": 2214956,
+      "width": 2068,
+      "height": 1764,
+      "sha256": "3da0359eaa7fb0536ec56b0d5d699e9a580c727d3d8b7a6abf12ad6595d5932e",
+      "credit": "Yellow topaz photographed under magnification. Panel c shows basal cleavage in sample TO9. Zixiong Song, Qingfeng Guo and Libing Liao, Crystals (2022), Fig. 2. https://doi.org/10.3390/cryst12121746. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "approval_evidence_url": "https://www.mdpi.com/2073-4352/12/12/1746",
+      "source_page": "https://www.mdpi.com/2073-4352/12/12/1746",
+      "illustrative_only": true
+    },
+    "category": "gemology",
+    "prepared_at": "2026-11-24T13:42:20.924977+00:00",
+    "reviewer": "EXIMUTC evergreen editorial registry; live evidence rechecked",
+    "reviewed_at": "2026-11-24T13:42:20.924977+00:00",
+    "source_identity": "baa19412dac1aa46c2da3ff4b139a5ac6107461a5d53dfc8599f72094a496553",
+    "slug": "hard-topaz-can-still-split-along-cleavage-planes-13259862",
+    "fingerprint": "132598620288595480dff2bd679dbed67b12ac3a65085f97581c2e0297ff136e",
+    "published_at": "2026-11-24T13:42:20.924977+00:00",
+    "website_release_slot": "2026-11-24-0730"
   }
 ]
