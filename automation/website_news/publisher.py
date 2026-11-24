@@ -54,6 +54,18 @@ def display_date(value):
         return dt.strftime('%B %-d, %Y at %-I:%M %p ET')
     except (ValueError, TypeError):
         return str(value)
+
+
+def approved_publication_time(article):
+    try:
+        published=datetime.fromisoformat(article['published_at'])
+    except (KeyError, TypeError, ValueError) as error:
+        raise ValueError('Approved website article is missing its editorial publication time') from error
+    if published.utcoffset() is None:
+        raise ValueError('Approved website article publication time must include a timezone')
+    return published
+
+
 def article_photo(record):
     image=record.get('image')
     if not isinstance(image,dict):
@@ -147,10 +159,14 @@ def main(*, rebuild_only=False, approved_export_only=False):
             record['image']=match['image']
     item=None if rebuild_only else pick_item(queue,history,approved_export_only=approved_export_only)
     if item:
-        now=datetime.now(timezone.utc).isoformat(); slug=slugify(item['title'])+'-'+fingerprint(item)[:8]
-        record={**item,'slug':slug,'fingerprint':fingerprint(item),'published_at':now}
+        published=(approved_publication_time(item) if approved_export_only
+                   else datetime.now(timezone.utc))
+        slug=slugify(item['title'])+'-'+fingerprint(item)[:8]
+        record={**item,'slug':slug,'fingerprint':fingerprint(item),'published_at':published.isoformat()}
+        history.append(record)
+        if approved_export_only:
+            history.sort(key=approved_publication_time)
         (OUT/'articles'/f'{slug}.html').write_text(article_html(record))
-        history.append(record); STATE.write_text(json.dumps(history,indent=2,ensure_ascii=False))
     STATE.write_text(json.dumps(history,indent=2,ensure_ascii=False))
     for record in history:
         (OUT/'articles'/f"{record['slug']}.html").write_text(article_html(record))
