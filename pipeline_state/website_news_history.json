@@ -1430,5 +1430,34 @@
     "slug": "natural-radiation-can-give-quartz-a-smoky-color-52f42928",
     "fingerprint": "52f42928ae895760f48cce11b509d8147e56f53bea74531c566bafe202286b68",
     "published_at": "2026-11-23T23:23:00.532462+00:00"
+  },
+  {
+    "title": "Some sunstone sparkles because of inclusions",
+    "summary": "GEMOLOGY FACT: Some feldspars called sunstone show aventurescence, a glittering effect produced by flat, reflective inclusions. The effect is also called schiller. Inclusions can differ with the material: copper platelets produce the effect in some Oregon sunstone. The optical display depends on the internal inclusions and how light meets them, rather than on the name alone.",
+    "market_view": "EXIMUTC view: View the stone from several angles and compare how the sparkle is distributed across its face. Decide whether the effect works in the proposed orientation of the jewel, rather than choosing from one favorable photograph. Keep the optical description separate from an origin claim: visible sparkle by itself does not establish that a sunstone comes from Oregon.",
+    "source_url": "https://www.gia.edu/sunstone-description",
+    "source": "Gemological Institute of America",
+    "image": {
+      "url": "https://live.staticflickr.com/65535/52558868767_6e552434af_o.jpg",
+      "mime_type": "image/jpeg",
+      "length": 954336,
+      "width": 1239,
+      "height": 1279,
+      "sha256": "be9e1d0f99a797a90574c8c77fe5843eccd19b5638dcfd6e7376e066917fec89",
+      "credit": "Sunstone • James St. John / Flickr • CC BY 2.0 (original image)\nhttps://www.flickr.com/photos/47445767@N05/52558868767/\nhttps://creativecommons.org/licenses/by/2.0/",
+      "license": "CC-BY-2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "approval_evidence_url": "https://commons.wikimedia.org/wiki/File:Sunstone_1.jpg#Licensing",
+      "source_page": "https://www.flickr.com/photos/47445767@N05/52558868767/",
+      "illustrative_only": true
+    },
+    "category": "gemology",
+    "prepared_at": "2026-11-24T00:56:27.844130+00:00",
+    "reviewer": "EXIMUTC evergreen editorial registry; live evidence rechecked",
+    "reviewed_at": "2026-11-24T00:56:27.844130+00:00",
+    "source_identity": "2b17549fce1aa050d90221c77ff72ef1eb33291544d0d03b34442bf5cc549ef2",
+    "slug": "some-sunstone-sparkles-because-of-inclusions-c229acaf",
+    "fingerprint": "c229acaf26bd4007de4225800fb2e90e90d0f6c22cfbebdfc6d01b80f686c684",
+    "published_at": "2026-11-24T00:57:25.537576+00:00"
   }
 ]
