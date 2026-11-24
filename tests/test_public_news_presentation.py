@@ -92,6 +92,20 @@ class PublicNewsPresentationTests(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError, 'does not match the reviewed image'):
                     verify_production.verify(item)
 
+    def test_approved_export_never_falls_back_to_older_queue_rows(self):
+        older, approved = article(1), article(2)
+        approved_fingerprint = publisher.fingerprint(approved)
+        queue = {
+            'status': 'APPROVED_FOR_PUBLISHING',
+            'exported_latest_fingerprint': approved_fingerprint,
+            'items': [older, approved],
+        }
+        self.assertEqual(publisher.pick_item(queue, [], approved_export_only=True), approved)
+        self.assertIsNone(publisher.pick_item(
+            queue, [{'fingerprint': approved_fingerprint}], approved_export_only=True))
+        queue['exported_latest_fingerprint'] = 'a' * 64
+        self.assertIsNone(publisher.pick_item(queue, [], approved_export_only=True))
+
 
 def reviewed_photo(name):
     return {
