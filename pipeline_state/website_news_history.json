@@ -1459,5 +1459,34 @@
     "slug": "some-sunstone-sparkles-because-of-inclusions-c229acaf",
     "fingerprint": "c229acaf26bd4007de4225800fb2e90e90d0f6c22cfbebdfc6d01b80f686c684",
     "published_at": "2026-11-24T00:57:25.537576+00:00"
+  },
+  {
+    "title": "Aligned inclusions can create a cat’s-eye effect in gems",
+    "summary": "GEMOLOGY FACT: A narrow line can appear when light reflects from aligned needle-like inclusions in a gemstone. A rounded cabochon and the orientation of its base help the effect show.",
+    "market_view": "EXIMUTC view: Examine the line’s sharpness and movement in person; a photograph alone should not decide identity or quality.",
+    "source_url": "https://www.gia.edu/gems-gemology/winter-2021-lab-notes-color-zoned-cats-eye-chrysoberyl",
+    "source": "www.gia.edu",
+    "image": {
+      "url": "https://ids.si.edu/ids/deliveryService?id=ark:/65665/m34455e4f7cd504f01ae5dfe83229dc4f6",
+      "mime_type": "image/jpeg",
+      "length": 488147,
+      "width": 3999,
+      "height": 2666,
+      "sha256": "0dbf17ab3ea6e34526f529de4b6abcc7990c6a190ec0efc04173e8d37c195201",
+      "credit": "Cat's-eye gems • Chip Clark / Smithsonian National Museum of Natural History • CC0\nhttps://naturalhistory.si.edu/explore/collections/geogallery/10025988\nhttps://creativecommons.org/publicdomain/zero/1.0/",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "approval_evidence_url": "https://naturalhistory.si.edu/object/nmnhmineralsciences_1001541?geogallery=Cat's+Eyes&node=14192",
+      "source_page": "https://naturalhistory.si.edu/explore/collections/geogallery/10025988",
+      "illustrative_only": true
+    },
+    "category": "gemology",
+    "prepared_at": "2026-11-24T01:04:28.481108+00:00",
+    "reviewer": "EXIMUTC editorial intake",
+    "reviewed_at": "2026-11-22T20:21:41+00:00",
+    "source_identity": "99cb7e75a717ef84813c32ed8fc34014844bf46d61185b3d70d7e7a115e81654",
+    "slug": "aligned-inclusions-can-create-a-cat-s-eye-effect-in-gems-55c8a10f",
+    "fingerprint": "55c8a10fef3e12cec5c77735fc0a8e3345c221f08a18a10610cbc4cd87599632",
+    "published_at": "2026-11-24T01:04:50.396838+00:00"
   }
 ]
