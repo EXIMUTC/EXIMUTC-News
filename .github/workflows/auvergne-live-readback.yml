@@ -1,0 +1,19 @@
+name: Verify live Auvergne media
+on:
+  push:
+    branches: [media/auvergne-e3-verified-assets]
+    paths: ['.github/workflows/auvergne-live-readback.yml']
+permissions: {}
+jobs:
+  readback:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Download and hash the production contents
+        run: |
+          set -euo pipefail
+          for file in 9fb1983262c8a2adb6436a1cf70059b99802c4aa0ed9726e7c250f19e08c917b.jpg f5558b0e2a9bfb203cc5e9fa77ef291ff8975c32ccfffe2e45f95c3a0289dd01.jpg d0db3cb1d3288d38521bdf90102764e8be105e984b35d9cd760bb34cfaf2a587.mp4 8abe5e3f85766493e5538b3b1afaae5b98851a0fb92344f4acc381ff400f9a6b.mp4; do
+            url="https://news.eximutc.com/assets/social/$file"
+            curl -fsS --proto '=https' --retry 4 --retry-all-errors --retry-delay 10 --max-time 45 -o "$RUNNER_TEMP/$file" "$url"
+            (cd "$RUNNER_TEMP" && echo "${file%.*}  $file" | sha256sum -c -)
+          done
