@@ -1,0 +1,30 @@
+name: Verify Auvergne S5 staging transfer
+on:
+  push:
+    branches: [media/auvergne-e3-verified-assets]
+    paths: ['.auvergne-transfer/s5.*']
+permissions: {}
+jobs:
+  materialize:
+    if: github.repository == 'EXIMUTC/EXIMUTC-News'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Verify approved compilation and store immutable Git blob
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          file="$RUNNER_TEMP/s5.mp4"
+          cat .auvergne-transfer/s5.part0 .auvergne-transfer/s5.part1 .auvergne-transfer/s5.part2 > "$file"
+          test "$(stat -c %s "$file")" = 15241179
+          echo "8abe5e3f85766493e5538b3b1afaae5b98851a0fb92344f4acc381ff400f9a6b  $file" | sha256sum -c -
+          test "$(git hash-object "$file")" = 8ad69d057b233dbfdaab8a63a559305fdf1c8599
+          python -c 'import base64,json,sys; print(json.dumps(dict(encoding="base64",content=base64.b64encode(open(sys.argv[1],"rb").read()).decode())))' "$file" |
+            gh api "repos/$GITHUB_REPOSITORY/git/blobs" --method POST --input - --jq .sha |
+            grep -Fx 8ad69d057b233dbfdaab8a63a559305fdf1c8599
