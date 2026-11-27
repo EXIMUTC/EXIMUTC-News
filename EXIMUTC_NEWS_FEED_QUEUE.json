@@ -5,6 +5,36 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Fluorite gave fluorescence its name",
+      "summary": "GEMOLOGY FACT: In 1852, George Stokes named fluorescence after fluorspar, the mineral now commonly called fluorite. Fluorescence can make a gem emit visible light under ultraviolet illumination.",
+      "market_view": "EXIMUTC view: Describe how a gem was lit when sharing a photograph of its glow.",
+      "source_url": "https://www.gia.edu/gems-gemology/winter-2024-fluorescence-phosphorescence",
+      "source": "Gemological Institute of America",
+      "image": {
+        "url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3f56aad9149cb4deb99dd72a22bd5a8ee",
+        "mime_type": "image/jpeg",
+        "width": 2000,
+        "height": 1334,
+        "length": 136094,
+        "sha256": "101124338d9422acf37954c28c416c8416b863cab8c610266a7656ce7db7852e",
+        "license": "CC0-1.0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "credit": "Illustration: Fluorite crystals on calcite, NMNH R17986. Smithsonian National Museum of Natural History. CC0 1.0, unmodified.\nhttps://naturalhistory.si.edu/object/nmnhmineralsciences_1165639\nhttps://creativecommons.org/publicdomain/zero/1.0/",
+        "approval_evidence_url": "https://naturalhistory.si.edu/object/nmnhmineralsciences_1165639",
+        "source_page": "https://naturalhistory.si.edu/object/nmnhmineralsciences_1165639",
+        "illustrative_only": true
+      },
+      "category": "gemology",
+      "prepared_at": "2026-11-27T07:21:15.326538+00:00",
+      "reviewer": "EXIMUTC website evergreen editorial registry",
+      "reviewed_at": "2026-11-27T07:21:15.326538+00:00",
+      "source_identity": "7c1534ea89fbfb7b839cf68765d6973fc28d7d1307b9740b7414c3171051bbdd",
+      "slug": "fluorite-gave-fluorescence-its-name-56d149d0",
+      "fingerprint": "56d149d0d99b96beeeba5ee9c8a849e2864f4195eca2872a22a601f1b0086458",
+      "published_at": "2026-11-27T07:21:15.326538+00:00",
+      "website_release_slot": "2026-11-27-0130"
+    },
+    {
       "title": "Hard topaz can still split along cleavage planes",
       "summary": "GEMOLOGY FACT: Topaz has a Mohs hardness of 8, but hardness measures resistance to scratching rather than resistance to breaking. Its basal cleavage allows it to split along a particular direction if struck. Pressure and sudden temperature changes can also cause damage. This is why a hard gemstone can still need careful handling during cutting, setting, cleaning and everyday wear.",
       "market_view": "EXIMUTC view: Choose a protective setting for a topaz ring and tell the jeweler the gem's identity before repair or cleaning. Avoid hard knocks and sudden temperature changes. GIA recommends warm, soapy water instead of steam or ultrasonic cleaning. Consider how the piece will be worn; the hardness number alone should not be treated as a promise of resistance to impact.",
@@ -1518,5 +1548,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "132598620288595480dff2bd679dbed67b12ac3a65085f97581c2e0297ff136e"
+  "exported_latest_fingerprint": "56d149d0d99b96beeeba5ee9c8a849e2864f4195eca2872a22a601f1b0086458"
 }
