@@ -5,6 +5,36 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Ruby color evaluation involves hue and saturation",
+      "summary": "GEMOLOGY FACT: Ruby color is evaluated through hue, tone and saturation: the color itself, its lightness or darkness, and its intensity. GIA identifies color as a central quality factor. A ruby that appears very dark can lose brightness, while a lighter appearance changes how its red is perceived. Color assessment must be separated from claims about geographic origin or treatment.",
+      "market_view": "EXIMUTC view: Compare rubies under consistent lighting and look at brightness as well as the intensity of the red. Ask for an independent treatment report and evaluate the actual stone's transparency and cutting. A descriptive trade color name does not establish origin or absence of treatment. Avoid deciding from a single highly saturated image when the stone can be examined in motion.",
+      "source_url": "https://www.gia.edu/ruby-quality-factor",
+      "source": "Gemological Institute of America",
+      "image": {
+        "url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3d98c930b07e841c4ba8c8ae4771eaf2a",
+        "mime_type": "image/jpeg",
+        "length": 244525,
+        "width": 1594,
+        "height": 1271,
+        "sha256": "733e5aa86b5fdbdb83ee1808b58e928e453ca65abe97bdf417459625e4e72c80",
+        "credit": "Illustration: Ruby, Tajikistan, 3.01 ct (NMNH G11437-00). Smithsonian National Museum of Natural History, CC0 1.0, unmodified.\nhttps://naturalhistory.si.edu/object/nmnhmineralsciences_10275599\nhttps://creativecommons.org/publicdomain/zero/1.0/",
+        "license": "CC0-1.0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "approval_evidence_url": "https://naturalhistory.si.edu/object/nmnhmineralsciences_10275599",
+        "source_page": "https://naturalhistory.si.edu/object/nmnhmineralsciences_10275599",
+        "illustrative_only": true
+      },
+      "category": "gemology",
+      "prepared_at": "2026-11-27T13:49:21.819389+00:00",
+      "reviewer": "EXIMUTC evergreen editorial registry; live evidence rechecked",
+      "reviewed_at": "2026-11-27T13:49:21.819389+00:00",
+      "source_identity": "8611a8a84b38ea50f44d0391630170880f82e681d16086a9d5f902d6138d269f",
+      "slug": "ruby-color-evaluation-involves-hue-and-saturation-dedbad09",
+      "fingerprint": "dedbad098fce1f25d487f29b1d266e0178e7070b0f9b94604212805a95211958",
+      "published_at": "2026-11-27T13:49:21.819389+00:00",
+      "website_release_slot": "2026-11-27-0730"
+    },
+    {
       "title": "Fluorite gave fluorescence its name",
       "summary": "GEMOLOGY FACT: In 1852, George Stokes named fluorescence after fluorspar, the mineral now commonly called fluorite. Fluorescence can make a gem emit visible light under ultraviolet illumination.",
       "market_view": "EXIMUTC view: Describe how a gem was lit when sharing a photograph of its glow.",
@@ -1548,5 +1578,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "56d149d0d99b96beeeba5ee9c8a849e2864f4195eca2872a22a601f1b0086458"
+  "exported_latest_fingerprint": "dedbad098fce1f25d487f29b1d266e0178e7070b0f9b94604212805a95211958"
 }
