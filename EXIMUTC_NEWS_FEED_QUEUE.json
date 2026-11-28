@@ -5,6 +5,36 @@
   "priority": "BREAKING_OFFICIAL_GEMOLOGY_NEWS",
   "items": [
     {
+      "title": "Thin mineral layers create fire agate’s color flashes",
+      "summary": "GEMOLOGY FACT: Fire agate contains thin mineral layers. Light reflecting from those layers interferes, producing bright color flashes.",
+      "market_view": "EXIMUTC view: Look at the flashes from several directions to assess how much of the stone displays them.",
+      "source_url": "https://www.gia.edu/gems-gemology/winter-2015-microworld-dragons-eye-fire-agate",
+      "source": "Gemological Institute of America",
+      "image": {
+        "url": "https://ids.si.edu/ids/deliveryService/id/ark:/65665/m3a73da4c2753b482791c1d38123fd5b5a",
+        "mime_type": "image/jpeg",
+        "width": 2000,
+        "height": 1334,
+        "length": 191092,
+        "sha256": "0c6acb411c970ef721964051e2adf8eb5feec67b775de02180af48e79014089d",
+        "license": "CC0-1.0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "credit": "Illustration: Fire agate specimens in the National Gem Collection. Smithsonian National Museum of Natural History. CC0 1.0, unmodified.\nhttps://naturalhistory.si.edu/object/nmnhmineralsciences_1000010\nhttps://creativecommons.org/publicdomain/zero/1.0/",
+        "approval_evidence_url": "https://naturalhistory.si.edu/object/nmnhmineralsciences_1000010",
+        "source_page": "https://naturalhistory.si.edu/object/nmnhmineralsciences_1000010",
+        "illustrative_only": true
+      },
+      "category": "gemology",
+      "prepared_at": "2026-11-28T00:36:12.632436+00:00",
+      "reviewer": "EXIMUTC website evergreen editorial registry",
+      "reviewed_at": "2026-11-28T00:36:12.632436+00:00",
+      "source_identity": "9d8b54bb232171f87c906f710581c33bf064e42c6f98af2a270c6bbbf5190284",
+      "slug": "thin-mineral-layers-create-fire-agate-s-color-flashes-f4aedfe9",
+      "fingerprint": "f4aedfe901dad33462231c4c7b7df6373a955ad8ba3ef6e4b3d905a549953590",
+      "published_at": "2026-11-28T00:36:12.632436+00:00",
+      "website_release_slot": "2026-11-27-1930"
+    },
+    {
       "title": "Ruby color evaluation involves hue and saturation",
       "summary": "GEMOLOGY FACT: Ruby color is evaluated through hue, tone and saturation: the color itself, its lightness or darkness, and its intensity. GIA identifies color as a central quality factor. A ruby that appears very dark can lose brightness, while a lighter appearance changes how its red is perceived. Color assessment must be separated from claims about geographic origin or treatment.",
       "market_view": "EXIMUTC view: Compare rubies under consistent lighting and look at brightness as well as the intensity of the red. Ask for an independent treatment report and evaluate the actual stone's transparency and cutting. A descriptive trade color name does not establish origin or absence of treatment. Avoid deciding from a single highly saturated image when the stone can be examined in motion.",
@@ -1578,5 +1608,5 @@
     }
   ],
   "recovery_scope": "Website-only export of current independently fact-checked Daily News; no social replay",
-  "exported_latest_fingerprint": "dedbad098fce1f25d487f29b1d266e0178e7070b0f9b94604212805a95211958"
+  "exported_latest_fingerprint": "f4aedfe901dad33462231c4c7b7df6373a955ad8ba3ef6e4b3d905a549953590"
 }
