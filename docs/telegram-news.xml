@@ -1,13 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>EXIMUTC reviewed industry news</title><link>https://news.eximutc.com/</link><description>Original EXIMUTC briefs with independently checked sources</description><item><title>Aquamarine and emerald are varieties of beryl</title><link>https://www.gia.edu/aquamarine-description</link><guid>https://www.gia.edu/aquamarine-description</guid><category>gemology</category><pubDate>Sat, 28 Nov 2026 07:30:00 -0500</pubDate><description>GEMOLOGY FACT: Aquamarine is a blue to greenish-blue beryl, while emerald is the green member of the same mineral family.
-
-EXIMUTC view: Request disclosure of any color-enhancing treatment before comparison.
-
-Source: Gemological Institute of America
-https://www.gia.edu/aquamarine-description
-
-Photo: Illustrative aquamarine specimen • Smithsonian National Museum of Natural History • CC0
-https://naturalhistory.si.edu/object/nmnhmineralsciences_1107330
-https://creativecommons.org/publicdomain/zero/1.0/</description><enclosure url="https://ids.si.edu/ids/deliveryService?id=ark:/65665/m310614da6da854ce7a824823b6e221023&amp;max=1600" length="193417" type="image/jpeg" /><media:content url="https://ids.si.edu/ids/deliveryService?id=ark:/65665/m310614da6da854ce7a824823b6e221023&amp;max=1600" type="image/jpeg" medium="image" width="1600" height="1064" fileSize="193417" /><media:credit>Illustrative aquamarine specimen • Smithsonian National Museum of Natural History • CC0
-https://naturalhistory.si.edu/object/nmnhmineralsciences_1107330
-https://creativecommons.org/publicdomain/zero/1.0/</media:credit></item></channel></rss>
+<rss version="2.0"><channel><title>EXIMUTC reviewed industry news</title><link>https://news.eximutc.com/</link><description>Original EXIMUTC briefs with independently checked sources</description></channel></rss>
