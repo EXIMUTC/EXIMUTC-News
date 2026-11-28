@@ -1,2 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0"><channel><title>EXIMUTC reviewed industry news</title><link>https://news.eximutc.com/</link><description>Original EXIMUTC briefs with independently checked sources</description></channel></rss>
+<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>EXIMUTC reviewed industry news</title><link>https://news.eximutc.com/</link><description>Original EXIMUTC briefs with independently checked sources</description><item><title>Amethyst is the purple quartz variety</title><link>https://www.gia.edu/amethyst-description</link><guid>https://www.gia.edu/amethyst-description</guid><category>gemology</category><pubDate>Sat, 28 Nov 2026 01:30:00 -0500</pubDate><description>GEMOLOGY FACT: Amethyst belongs to the quartz mineral family, alongside citrine and rose quartz.
+
+EXIMUTC view: Look for natural-looking color distribution, transparency and cutting quality.
+
+Source: Gemological Institute of America
+https://www.gia.edu/amethyst-description
+
+Photo: Illustrative amethyst specimen • Smithsonian National Museum of Natural History • CC0
+https://naturalhistory.si.edu/object/nmnhmineralsciences_1062796
+https://creativecommons.org/publicdomain/zero/1.0/</description><enclosure url="https://ids.si.edu/ids/deliveryService?id=ark:/65665/m38fb8ee2c513a4ea38e4de56ef0827b9a&amp;max=1600" length="109545" type="image/jpeg" /><media:content url="https://ids.si.edu/ids/deliveryService?id=ark:/65665/m38fb8ee2c513a4ea38e4de56ef0827b9a&amp;max=1600" type="image/jpeg" medium="image" width="1600" height="1067" fileSize="109545" /><media:credit>Illustrative amethyst specimen • Smithsonian National Museum of Natural History • CC0
+https://naturalhistory.si.edu/object/nmnhmineralsciences_1062796
+https://creativecommons.org/publicdomain/zero/1.0/</media:credit></item></channel></rss>
